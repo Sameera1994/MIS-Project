@@ -9,38 +9,28 @@
 
       <button  class="btn btn-success" href="">Add New User</button>
 
-      <h2>Add Details</h2>
-    <form>
-        <div class="form-group">
-            <label for="age">Age:</label>
-            <input type="number" class="form-control" id="age" placeholder="Enter your age" required>
-        </div>
-        <div class="form-group">
-            <label for="city">City:</label>
-            <input type="text" class="form-control" id="city" placeholder="Enter your city" required>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-
-
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque sint eos odit quos error eligendi adipisci obcaecati quibusdam aut sapiente consectetur in voluptas deleniti fugiat, necessitatibus amet fugit quasi sit.</p>
-    
     <table style="width: 100%; border-collapse: collapse;" >
     <thead>
         <tr>
             <th style="padding: 12px; text-align: left; border: 1px solid #ddd; background-color: #f2f2f2;">UID</th>
-            <th style="padding: 12px; text-align: left; border: 1px solid #ddd; background-color: #f2f2f2;">Username</th>
+            <th style="padding: 12px; text-align: left; border: 1px solid #ddd; background-color: #f2f2f2;">Name</th>
+            <th style="padding: 12px; text-align: left; border: 1px solid #ddd; background-color: #f2f2f2;">Email</th>
+            <th style="padding: 12px; text-align: left; border: 1px solid #ddd; background-color: #f2f2f2;">Reg.No./Username</th>
             <th style="padding: 12px; text-align: left; border: 1px solid #ddd; background-color: #f2f2f2;">Password</th>
             <th style="padding: 12px; text-align: left; border: 1px solid #ddd; background-color: #f2f2f2;">Action</th>
         </tr>
     </thead>
     <tbody>
+        <?php foreach ($user as $u):?>
     <tr style="background-color: #fff;">
-            <td style="padding: 12px; text-align: left; border: 1px solid #ddd;">1</td>
-            <td style="padding: 12px; text-align: left; border: 1px solid #ddd;">John Doe</td>
-            <td style="padding: 12px; text-align: left; border: 1px solid #ddd;">28</td>
-            <td style="padding: 12px; text-align: left; border: 1px solid #ddd;">New York</td>
+            <td style="padding: 12px; text-align: left; border: 1px solid #ddd;"><?= $u['uid'] ?></td>
+            <td style="padding: 12px; text-align: left; border: 1px solid #ddd;"><?= $u['name'] ?></td>
+            <td style="padding: 12px; text-align: left; border: 1px solid #ddd;"><?= $u['email'] ?></td>
+            <td style="padding: 12px; text-align: left; border: 1px solid #ddd;"><?= $u['username'] ?></td>
+            <td style="padding: 12px; text-align: left; border: 1px solid #ddd;"><?= $u['password'] ?></td>
+            <td style="padding: 12px; text-align: left; border: 1px solid #ddd;">Delete Edit</td>
         </tr>
+        <?php endforeach; ?>
     </tbody>
 </table>
 

@@ -121,9 +121,9 @@ use App\Controllers\Dashboard;
    
 
     .bi {
-        display: inline-block;
+        display: col;
         width: 1rem;
-        height: 6.12rem;
+        /* height: min-content; */
     }
 
     /*
@@ -135,6 +135,7 @@ use App\Controllers\Dashboard;
             position: -webkit-sticky;
             position: sticky;
             top: 48px;
+            height: max-content;
         }
 
         .navbar-search {
@@ -270,12 +271,15 @@ use App\Controllers\Dashboard;
 
     <div class="container-fluid ">
         <div class="row ">
+
+
+
             <div class="sidebar border-end shadow-right  col-md-3 col-lg-2 p-0">
                 <div class="offcanvas-md offcanvas-end" tabindex="-1" id="sidebarMenu"
                     aria-labelledby="sidebarMenuLabel">
 
                     <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
-                        <ul class="nav flex-column">
+                        <!-- <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page"
                                     href="<?= base_url().'dashboard' ?>">
@@ -284,10 +288,10 @@ use App\Controllers\Dashboard;
                                     </svg>
                                     Dashboard
                                 </a>
-                            </li>
+                            </li> -->
                             <ul class="flex-column my-10" type="none">
                                 <li class="nav-item">
-                                    <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page"
+                                    <a class="nav-link d-flex align-items-center gap-2 <?= (current_url() == base_url().'dashboard/user_management') ? 'active' : '' ?>" aria-current="page"
                                         href="<?= base_url().'dashboard/user_management' ?>">
                                         <svg class="bi">
                                             <use xlink:href="#people" />
@@ -296,7 +300,7 @@ use App\Controllers\Dashboard;
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link d-flex align-items-center gap-2"
+                                    <a class="nav-link d-flex align-items-center gap-2 <?= (current_url() == base_url().'dashboard/course_management') ? 'active' : '' ?>"
                                         href="<?= base_url().'dashboard/course_management' ?>">
                                         <svg class="bi">
                                             <use xlink:href="#file-earmark-text" />
@@ -305,7 +309,7 @@ use App\Controllers\Dashboard;
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link d-flex align-items-center gap-2"
+                                    <a class="nav-link d-flex align-items-center gap-2 <?= (current_url() == base_url().'dashboard/reports_and_analytics') ? 'active' : '' ?>"
                                         href="<?= base_url().'dashboard/reports_and_analytics' ?>">
                                         <svg class="bi">
                                             <use xlink:href="#graph-up" />
@@ -316,7 +320,7 @@ use App\Controllers\Dashboard;
 
 
                                 <li class="nav-item">
-                                    <a class="nav-link d-flex align-items-center gap-2"
+                                    <a class="nav-link d-flex align-items-center gap-2 <?= (current_url() == base_url().'dashboard/settings') ? 'active' : '' ?>"
                                         href="<?= base_url().'dashboard/settings' ?>">
                                         <svg class="bi">
                                             <use xlink:href="#gear-wide-connected" />
@@ -325,7 +329,7 @@ use App\Controllers\Dashboard;
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link d-flex align-items-center gap-2"
+                                    <a class="nav-link d-flex align-items-center gap-2<?= (current_url() == base_url().'login') ? 'active' : '' ?>"
                                         href="<?= base_url().'login' ?>">
                                         <svg class="bi">
                                             <use xlink:href="#door-closed" />
@@ -333,8 +337,45 @@ use App\Controllers\Dashboard;
                                         Sign out
                                     </a>
                                 </li>
+                                
                             </ul>
-                        </ul>
+                        <!-- </ul> -->
                     </div>
                 </div>
             </div>
+
+
+           
+
+<!-- <nav class="navbar bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Admin Dashboard</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Dashboard</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="<?= base_url().'dashboard/user_management'?>" >User Management</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="<?= base_url().'dashboard/course_management'?>" >Course Management</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="<?= base_url().'dashboard/reports_and_analytics'?>" >Reports and Analytics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="<?= base_url().'dashboard/settings'?>" >Settings</a>
+          </li>
+          
+        </ul>
+            
+      </div>
+    </div>
+  </div>
+</nav> -->

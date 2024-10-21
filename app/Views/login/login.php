@@ -164,7 +164,7 @@
             </div>
             <button class="btn btn-primary w-100 py-2 my-2" type="submit" >Sign in</button>
 
-      <a href="http://localhost/ci4/dashboard" class="btn btn-primary w-100 py-2 my-2" >Admin</a>
+      <a href="http://localhost/ci4/dashboard/user_management" class="btn btn-primary w-100 py-2 my-2" >Admin</a>
       <a href="http://localhost/ci4/home" class="btn btn-primary w-100 py-2 my-2" >Student</a>
 
             <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2024</p>
