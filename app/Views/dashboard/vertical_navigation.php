@@ -291,8 +291,8 @@ use App\Controllers\Dashboard;
                             </li> -->
                             <ul class="flex-column my-10" type="none">
                                 <li class="nav-item">
-                                    <a class="nav-link d-flex align-items-center gap-2 <?= (current_url() == base_url().'dashboard/user_management') ? 'active' : '' ?>" aria-current="page"
-                                        href="<?= base_url().'dashboard/user_management' ?>">
+                                    <a class="nav-link d-flex align-items-center gap-2 <?= (current_url() == base_url().'dashboard/index_user' || current_url() == base_url().'dashboard/create_user') ? 'active' : '' ?>" aria-current="page"
+                                        href="<?= base_url().'dashboard/index_user' ?>">
                                         <svg class="bi">
                                             <use xlink:href="#people" />
                                         </svg>

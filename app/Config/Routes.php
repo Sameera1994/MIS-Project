@@ -14,13 +14,12 @@ $routes->get('/home', 'Home::index');
 $routes->get('/login', 'Login::index');
 
 // $routes->get('/dashboard', 'Dashboard::index');
-$routes->get('/dashboard/user_management', 'UserManagement::index');
-
-
-$routes->get('/dashboard/user_management/user_form', 'UserForm::index');
-$routes->post('/dashboard/user_management/user_form', 'UserForm::post_user');
-$routes->post('/dashboard/user_management/user_form', 'UserForm::edit_user');
-$routes->delete('/dashboard/user_management/user_form', 'UserForm::delete_user');
+$routes->get('/dashboard/index_user', 'UserManagement::index');
+$routes->get('/dashboard/create_user', 'UserManagement::create');
+$routes->post('/dashboard/store_user', 'UserManagement::store');
+$routes->get('/dashboard/edit_user/(:num)', 'UserManagement::edit/$1'); 
+$routes->post('/dashboard/update_user/(:num)', 'UserManagement::update/$1'); 
+$routes->get('/dashboard/delete_user/(:num)', 'UserManagement::delete/$1'); 
 
 
 $routes->get('/dashboard/course_management', 'CourseManagement::index');

@@ -7,7 +7,7 @@ class CourseManagement extends Controller
 {
     public function index()
     {
-        echo view('dashboard/course_management');
+        echo view('dashboard/index_user');
 
     }
 }
