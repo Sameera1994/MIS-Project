@@ -6,28 +6,35 @@
         <h1 class="h2">Registration Form</h1>
         
       </div>
-      <form  action="/ci4/dashboard/store_user" method="post">
+     <form action="/ci4/dashboard/store_user" method="post">
+    <?= csrf_field() ?> <!-- CSRF protection -->
+
     <div class="form-group mb-3">
         <label for="name">Name with Initials:</label>
-        <input type="text" class="form-control" name="name"  value="<?= old('name') ?>">
+        <input type="text" class="form-control" name="name" value="<?= old('name') ?>">
     </div>
+
     <div class="form-group mb-3">
         <label for="email">University Email:</label>
-        <input type="email" class="form-control"  name="email"  value="<?= old('email') ?>">
+        <input type="email" class="form-control" name="email" value="<?= old('email') ?>">
     </div>
+
     <div class="form-group mb-3">
-        <label for="registration">Registration Number/Username:</label> 
-        <!-- students can use there reg number and administrators can use admin. -->
-        <input type="text" class="form-control"  name="username"  value="<?= old('username') ?>">
+        <label for="username">Registration Number/Username:</label> 
+        <!-- Students can use their registration number and administrators can use admin. -->
+        <input type="text" class="form-control" name="username" value="<?= old('username') ?>">
     </div>
+
     <div class="form-group mb-3">
         <label for="password">New Password:</label>
-        <input type="password" class="form-control"  name="password"  value="<?= old('password') ?>">
+        <input type="password" class="form-control" name="password">
     </div>
+
     <div class="form-group mb-3">
         <label for="confirmPassword">Confirm Password:</label>
-        <input type="password" class="form-control"  name="confirmPassword"  value="<?= old('confirmPassword') ?>">
+        <input type="password" class="form-control" name="confirmPassword">
     </div>
+
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 

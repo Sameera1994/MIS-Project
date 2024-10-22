@@ -94,4 +94,19 @@ class UserManagement extends Controller
         return redirect()->to('/dashboard/index_user'); 
     }
 
+    public function search()
+    {
+        // Load the model
+        $userModel = new UserModel();
+        
+        // Get the search query from the GET request
+        $query = urldecode($this->request->getVar('query'));
+
+        // Fetch the search results from the model
+        $data['user'] = $userModel->searchUser($query);
+
+        // Load the view and pass the search results
+        return view('dashboard/index_user', $data);
+    }
+
 }

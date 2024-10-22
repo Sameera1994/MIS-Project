@@ -8,8 +8,17 @@
 
     </div>
 
-    <div class="d-flex justify-content-end my-5">
-        <a class="btn btn-success" href="http://localhost/ci4/dashboard/create_user">Add New User</a>
+    <div class="d-flex justify-content-between my-5">
+        <div>
+            <form action="<?= base_url('dashboard/search_user') ?>" method="get">
+                <input type="text" name="query" class="form-control" placeholder="Search Users"
+                    style="width: 200px; display: inline-block; margin-right: 10px;">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+        <div>
+            <a class="btn btn-success" href="http://localhost/ci4/dashboard/create_user">Add New User</a>
+        </div>
     </div>
 
     <table style="width: 100%; border-collapse: collapse;">
@@ -29,7 +38,8 @@
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($user as $u):?>
+            <?php if (!empty($user)): ?>
+            <?php foreach ($user as $u): ?>
             <tr style="background-color: #fff;">
                 <td style="padding: 12px; text-align: left; border: 1px solid #ddd;"><?= $u['uid'] ?></td>
                 <td style="padding: 12px; text-align: left; border: 1px solid #ddd;"><?= $u['name'] ?></td>
@@ -42,6 +52,11 @@
                 </td>
             </tr>
             <?php endforeach; ?>
+            <?php else: ?>
+            <tr>
+                <td colspan="6" style="text-align: center; padding: 12px; border: 1px solid #ddd;">No users found.</td>
+            </tr>
+            <?php endif; ?>
         </tbody>
     </table>
 
@@ -55,7 +70,7 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.2/dist/chart.umd.js"
     integrity="sha384-eI7PSr3L1XLISH8JdDII5YN/njoSsxfbrkCTnJrzXt+ENP5MOVBxD+l6sEG4zoLp" crossorigin="anonymous">
 </script>
-<script src="dashboard.js"></script>
+<!-- <script src="dashboard.js"></script> -->
 </body>
 
 </html>
