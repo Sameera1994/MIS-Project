@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Signin</title>
+    <title>Register</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
 
@@ -22,13 +22,10 @@
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="public\assests\Logo.png" sizes="180x180">
-    <link rel="icon" href="public\assests\Logo.png" sizes="32x32"
-        type="image/png">
-    <link rel="icon" href="public\assests\Logo.png" sizes="16x16"
-        type="image/png">
-    <link rel="manifest" href="https://getbootstrap.com/docs/5.3/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="public\assests\Logo.png"
-        color="#712cf9">
+    <link rel="icon" href="public\assests\Logo.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="public\assests\Logo.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="public\assests\Logo.png">
+    <link rel="mask-icon" href="" color="#712cf9">
     <link rel="icon" href="public\assests\Logo.png">
     <meta name="theme-color" content="#712cf9">
 
@@ -125,17 +122,6 @@
         background-color: <?=Light ?>;
     }
 
-    .test{
-        background-color: #8a9a05;
-    }
-    .input_box{
-        background-color: #ffffff;
-        padding: 8px;
-        margin-bottom: 5px;
-        border-radius: 10px;
-        border: #ffffff;
-    }
-
     .custom-btn {
 
         background-color: #2b3d70;
@@ -152,6 +138,15 @@
         color: #ffffff;
         /* Change text color to dark when hovered */
     }
+
+    .input_box{
+        background-color: #ffffff;
+        padding: 8px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+        border: #ffffff;
+    }
+
     .form-control{
         background-color: #ffffff;
         border: #ffffff;
@@ -170,43 +165,51 @@
 
 <body class="d-flex flex-column h-100 text-center bg-login bg-login-2">
 
-    <div class="cover-container d-flex  justify-content-center align-items-center   flex-grow-1 ">
-        <main>
+    <div class="cover-container d-flex flex-column justify-content-center align-items-center p-3 mx-auto flex-grow-1">
+        <main class="px-3">
 
-
-            <form method="post" action="<?= base_url().'login/login_post' ?>"  class="">
-            <?= csrf_field() ?>    
-            
-            <div class="d-flex justify-content-center">
-                    <img class="mb-4" src="public\assests\Logo.png" alt="" width="150" height="150">
+        <form action="<?= base_url('login/store') ?>" method="post">
+    <?= csrf_field() ?> <!-- CSRF protection -->
+     <div class="d-flex justify-content-center">
+                    <img class="mb-4" src="public\assests\Logo.png" alt="" width="90" height="90"> 
 
                 </div>
-                <h2 class=" mb-3">Sign In</h2>
+                <h2 class=" mb-3">Register</h2>
+    <div class="form-group mb-3">
+        <!-- <label for="name">Name with Initials:</label> -->
+        <input type="text" class="form-control" name="name" value="<?= old('name') ?>" placeholder="Name with Initials">
+    </div>
 
-                <div class=" pb-1">
-                    <input name="username" type="text" class="form-control" placeholder="Username">
-                    <!-- <label for="floatingInput">Username</label> -->
-                </div>
-                <div class="  pb-1">
-                    <input  name="password" type="password" class="form-control" placeholder="Password">
-                    <!-- <label for="floatingPassword">Password</label> -->
-                </div>
+    <div class="form-group mb-3">
+        <!-- <label for="email">University Email:</label> -->
+        <input type="email" class="form-control" name="email" value="<?= old('email') ?>" placeholder="University Email">
+    </div>
 
-                <!-- <div class="form-check text-start my-3">
-                    <input  class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                        Remember me
-                    </label>
-                </div> -->
-                <button class="btn btn-lg border-0  custom-btn" type="submit">Sign in</button>
-                <a href="<?= base_url('register')?>" class="">Register</a>
+    <div class="form-group mb-3">
+        <!-- <label for="username">Registration Number/Username:</label>  -->
+        <!-- Students can use their registration number and administrators can use admin. -->
+        <input type="text" class="form-control" name="username" value="<?= old('username') ?>" placeholder="Registration Number">
+    </div>
 
-<!-- 
-                <a href="<?= base_url('dashboard/index_user') ?>" class="btn btn-lg border-0  custom-btn">Admin</a>
-                <a href="<?= base_url('home') ?>" class="btn btn-lg border-0  custom-btn">Student</a> -->
+    <div class="form-group mb-3">
+        <!-- <label for="password">New Password:</label> -->
+        <input type="password" class="form-control" name="password" placeholder="New Password">
+    </div>
+
+    <div class="form-group mb-3">
+        <!-- <label for="confirmPassword">Confirm Password:</label> -->
+        <input type="password" class="form-control" name="confirmPassword" placeholder="Confirm Password">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+    
+    <a href="<?= base_url('login')?>" class="">SignIn</a>
 
 
-            </form>
+    <a href="<?= base_url('dashboard/index_user') ?>" class="btn btn-lg border-0  custom-btn">Admin</a>
+                <a href="<?= base_url('home') ?>" class="btn btn-lg border-0  custom-btn">Student</a>
+</form>
         </main>
     </div>
 

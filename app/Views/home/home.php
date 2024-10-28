@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Pricing example · Bootstrap v5.3</title>
+    <title>Home</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/pricing/">
 
@@ -19,12 +19,12 @@
 <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="apple-touch-icon" href="public\assests\Logo.png" sizes="180x180">
+<link rel="icon" href="public\assests\Logo.png" sizes="32x32" type="image/png">
+<link rel="icon" href=public\assests\Logo.png"" sizes="16x16" type="image/png">
 <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+<link rel="mask-icon" href="public\assests\Logo.png" color="#712cf9">
+<link rel="icon" href="public\assests\Logo.png">
 <meta name="theme-color" content="#712cf9">
 
 
@@ -122,111 +122,67 @@
  
 
   <main>
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Free</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>10 users included</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm">
-          <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Pro</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>20 users included</li>
-              <li>10 GB of storage</li>
-              <li>Priority email support</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm border-primary">
-          <div class="card-header py-3 text-bg-primary border-primary">
-            <h4 class="my-0 fw-normal">Enterprise</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>30 users included</li>
-              <li>15 GB of storage</li>
-              <li>Phone and email support</li>
-              <li>Help center access</li>
-            </ul>
-            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <h2 class="display-6 text-center mb-4">Compare plans</h2>
+    
+    <h2 class="display-6 text-center mb-4">Summary</h2>
 
     <div class="table-responsive">
       <table class="table text-center">
         <thead>
           <tr>
             <th style="width: 34%;"></th>
-            <th style="width: 22%;">Free</th>
-            <th style="width: 22%;">Pro</th>
-            <th style="width: 22%;">Enterprise</th>
+            <th style="width: 22%;">Subjects</th>
+            <th style="width: 22%;">GPA</th>
+            <th style="width: 22%;">Attendence</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row" class="text-start">Public</th>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <th scope="row" class="text-start">1 Semeseter</th>
+            <td><a href="">Compulsory</a> <a href="">Elective</a></td>
+            <td>3.5</td>
+            <td>82%</td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Private</th>
-            <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-          </tr>
-        </tbody>
-
-        <tbody>
-          <tr>
-            <th scope="row" class="text-start">Permissions</th>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <th scope="row" class="text-start">2 Semeseter</th>
+            <td><a href="">Compulsory</a> <a href="">Elective</a></td>
+            <td>3.5</td>
+            <td>82%</td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Sharing</th>
-            <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <th scope="row" class="text-start">3 Semeseter</th>
+            <td><a href="">Compulsory</a> <a href="">Elective</a></td>
+            <td>3.5</td>
+            <td>82%</td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Unlimited members</th>
-            <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <th scope="row" class="text-start">4 Semeseter</th>
+            <td><a href="">Compulsory</a> <a href="">Elective</a></td>
+            <td>3.5</td>
+            <td>82%</td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Extra security</th>
-            <td></td>
-            <td></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <th scope="row" class="text-start">5 Semeseter</th>
+            <td><a href="">Compulsory</a> <a href="">Elective</a></td>
+            <td>3.5</td>
+            <td>82%</td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">6 Semeseter</th>
+            <td><a href="">Compulsory</a> <a href="">Elective</a></td>
+            <td>3.5</td>
+            <td>82%</td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">7 Semeseter</th>
+            <td><a href="">Compulsory</a> <a href="">Elective</a></td>
+            <td>3.5</td>
+            <td>82%</td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">8 Semeseter</th>
+            <td><a href="">Compulsory</a> <a href="">Elective</a></td>
+            <td>3.5</td>
+            <td>82%</td>
           </tr>
         </tbody>
       </table>

@@ -12,6 +12,11 @@ $routes->get('/welcome', 'Welcome::index');
 $routes->get('/home', 'Home::index');
 
 $routes->get('/login', 'Login::index');
+$routes->post('/login/login_post', 'Login::login_post');
+$routes->get('/login/logout', 'Login::logout');
+$routes->post('/login/store', 'Login::store');
+$routes->get('/register', 'Login::create');
+
 
 // $routes->get('/dashboard', 'Dashboard::index');
 $routes->get('/dashboard/index_user', 'UserManagement::index');

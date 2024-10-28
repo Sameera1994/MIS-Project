@@ -6,7 +6,7 @@
         <h1 class="h2">Registration Form</h1>
         
       </div>
-     <form action="/ci4/dashboard/store_user" method="post">
+     <form action="<?= base_url('dashboard/store_user') ?>" method="post">
     <?= csrf_field() ?> <!-- CSRF protection -->
 
     <div class="form-group mb-3">
