@@ -27,6 +27,6 @@ $routes->post('/dashboard/update_user/(:num)', 'UserManagement::update/$1');
 $routes->get('/dashboard/delete_user/(:num)', 'UserManagement::delete/$1'); 
 $routes->get('/dashboard/search_user', 'UserManagement::search');
 
-$routes->get('/dashboard/course_management', 'CourseManagement::index');
+$routes->get('/dashboard/index_course', 'CourseManagement::index');
 $routes->get('/dashboard/reports_and_analytics', 'ReportsAndAnalytics::index');
 $routes->get('/dashboard/settings', 'Settings::index');

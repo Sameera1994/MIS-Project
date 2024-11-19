@@ -30,6 +30,7 @@ class UserManagement extends Controller
             'name'   => 'required',
             'email' => 'required',
             'username'   => 'required',
+            'department' => 'required',
             'password' => 'required',
             'confirmPassword'   => 'required'
         ])) {
@@ -41,6 +42,7 @@ class UserManagement extends Controller
             'name'   => $this->request->getPost('name'),
             'email' => $this->request->getPost('email'),
             'username'   => $this->request->getPost('username'),
+            'department'   => $this->request->getPost('department'),
             'password' => $this->request->getPost('password'),
             'confirmPassword'   => $this->request->getPost('confirmPassword'),
   
@@ -68,6 +70,7 @@ class UserManagement extends Controller
             'name'   => 'required',
             'email' => 'required',
             'username'   => 'required',
+            'department' => 'required',
             'password' => 'required',
             'confirmPassword'   => 'required',
         ])) {
@@ -79,6 +82,7 @@ class UserManagement extends Controller
             'name'   => $this->request->getPost('name'),
             'email' => $this->request->getPost('email'),
             'username'   => $this->request->getPost('username'),
+            'department'   => $this->request->getPost('department'),
             'password' => $this->request->getPost('password'),
             'confirmPassword'   => $this->request->getPost('confirmPassword'),
         ]);

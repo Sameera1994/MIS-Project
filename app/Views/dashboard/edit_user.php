@@ -25,6 +25,11 @@
     </div>
 
     <div class="form-group mb-3">
+        <label for="username">Department:</label>
+        <input type="text" class="form-control" name="department" value="<?= old('department', $user['department']) ?>">
+    </div>
+
+    <div class="form-group mb-3">
         <label for="password">New Password:</label>
         <input type="password" class="form-control" name="password">
     </div>
