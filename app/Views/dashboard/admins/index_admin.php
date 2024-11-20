@@ -2,47 +2,47 @@
 
 <main class="main-content px-3 px-md-4">
         <div class="d-flex align-items-center border-bottom pt-3 pb-2 mb-3">
-            <h1 class="h2 text-center mx-auto">Student Management</h1>
+            <h1 class="h2 text-center mx-auto">Admin Management</h1>
         </div>
 
         <div class="d-flex justify-content-between my-4 search-add-container">
             <div class="search-container">
-                <form action="<?= base_url('dashboard/search_user') ?>" method="get">
+                <form action="<?= base_url('dashboard/admins/search_admin') ?>" method="get">
                     <div class="form-control border-0">
-                        <input type="text" name="query" class="rounded border border-secondary-subtle p-1" placeholder="Search Students">
+                        <input type="text" name="query" class="rounded border border-secondary-subtle p-1" placeholder="Search Admin">
                     <button type="submit" class="btn btn-primary">Search</button>
                 </div>
                 </form>
             </div>
             <div>
-                <a class="btn btn-success" href="<?= base_url('dashboard/create_user') ?>">Add New Student</a>
+                <a class="btn btn-success" href="<?= base_url('dashboard/admins/create_admin') ?>">Add New Admin</a>
             </div>
         </div>
 
         <div class="table-responsive">
-            <table class="table ">
+            <table class="table">
                 <thead>
                     <tr>
-                        <th>Reg.No./Username</th>
-                        <th>Department</th>
+                        <th>Access Level</th>
                         <th>Name</th>
                         <th>Email</th>
+                        <th>Telephone</th>
                         <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <?php if (!empty($user)): ?>
-                        <?php foreach ($user as $u): ?>
+                    <?php if (!empty($admin)): ?>
+                        <?php foreach ($admin as $a): ?>
                             <tr>
-                                <td data-label="Reg.No./Username"><?= $u['username'] ?></td>
-                                <td data-label="Department"><?= $u['department'] ?></td>
-                                <td data-label="Name"><?= $u['name'] ?></td>
-                                <td data-label="Email"><?= $u['email'] ?></td>
+                                <td data-label="Reg.No./Username"><?= $a['access_level'] ?></td>
+                                <td data-label="Department"><?= $a['name'] ?></td>
+                                <td data-label="Name"><?= $a['email'] ?></td>
+                                <td data-label="Email"><?= $a['telephone'] ?></td>
                                 <td data-label="Action">
-                                    <div class="d-flex gap-2">
-                                        <a href="<?= base_url('dashboard/edit_user/' . $u['uid']) ?>" class="btn btn-sm btn-primary">Edit</a>
-                                        <a href="<?= base_url('dashboard/delete_user/' . $u['uid']) ?>" class="btn btn-sm btn-danger">Delete</a>
-                                    </div>
+                                <div class="d-flex gap-2">
+                                        <a href="<?= base_url('dashboard/admins/edit_admin/' . $a['id']) ?>" class="btn btn-sm btn-primary">Edit</a>
+                                        <a href="<?= base_url('dashboard/admins/delete_admin/' . $a['id']) ?>" class="btn btn-sm btn-danger">Delete</a>
+                                    </div> 
                                 </td>
                             </tr>
                         <?php endforeach; ?>
@@ -54,6 +54,8 @@
                 </tbody>
             </table>
         </div>
+
+        
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

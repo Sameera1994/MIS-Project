@@ -189,7 +189,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link d-flex align-items-center gap-2 <?= current_url().'dashboard/index_admin' ? 'active' : '' ?>"
-                       href="dashboard/index_admin">
+                       href="<?= base_url('dashboard/admins/index_admin') ?>">
                         <i class="bi bi-file-text"></i>
                         Administrators Management
                     </a>
