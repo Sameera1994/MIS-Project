@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course Management</title>
     
+    <script>
+    function confirmDelete(id) {
+        if (confirm('Are you sure you want to delete this course?')) {
+            document.getElementById('deleteForm_' + id).submit(); // Submit the form
+        }
+    }
+    </script>
+
+
     <style>
  
     body {
@@ -58,11 +67,16 @@
             position: absolute;
             top: 25%;
             left: 20%;
+            overflow:auto;
+           
             
         h2{
             text-align: center;
         }    
         }
+        
+            
+        
         .header1 {
             display: flex;
             justify-content: center;
@@ -104,10 +118,12 @@
         table {
             width: 100%;
             border-collapse: collapse;
+            overflow:auto;
         }
         table, th, td {
             border: 1px solid #ddd;
         }
+        
         th, td {
             padding: 10px;
             text-align: left;
@@ -180,13 +196,16 @@
     <div class="container">
         <h2>Course Management</h2>
         <div class="header1">
-            <input type="text" placeholder="Input Course Id...">
-            <button>Search</button>
+        <form action="<?= site_url('search_courses') ?>" method="get">
+            <input type="text" name="course_code" placeholder="Input Course Code...">
+            <button type="submit">Search</button>
+        </form>
         </div>
         <div class="add-course">
-            <button>+ Add Course</button>
+           <a href="add_course"><button>+ Add Course</button></a> 
         </div>
-        <table>
+        
+         <table>
             <thead>
                 <tr>
                     <th>Course Details</th>
@@ -196,7 +215,8 @@
             </thead>
             <tbody>
                 <tr>
-                    <td></td>
+                <?php foreach ($courses as $course): ?>
+                    <td><?= $course['course_code'] ?></td>
                     <td>
                         <select class="status-dropdown">
                             <option value="active">Active</option>
@@ -204,17 +224,27 @@
                         </select>
                     </td>
                     <td class="action-icons">
-                        <i class="delete-icon"><img src="recycle-bin.png" alt="" width="20px">
-                        </i>
-                        <i class="edit-icon"><img src="draw.png" alt="" width="20px">
+                        <!-- Delete icon with a form -->
+                        <form id="deleteForm_<?= $course['id'] ?>" method="post" action="/delete_course">
+                            <input type="hidden" name="course_id" value="<?= $course['id'] ?>">
+                            <i class="delete-icon" onclick="confirmDelete(<?= $course['id'] ?>)">
+                                <img src="recycle-bin.png" alt="Delete" width="20px">
+                            </i>
+                        </form>
+                        <!-- Edit icon (you can implement edit functionality similarly) -->
+                        <i class="edit-icon">
+                            <a href="/edit_course/<?= $course['id'] ?>">
+                                <img src="draw.png" alt="Edit" width="20px">
+                            </a>
                         </i>
                     </td>
                 </tr>
+                <?php endforeach; ?>
             </tbody>
+
         </table>
+        </div>
+        
     </div>
 </body>    
 </html>
-
-    
-   

@@ -33,6 +33,37 @@ class CourseController extends Controller
         $courseModel->insert($data);
 
         
-        return redirect()->to('http://localhost/new-project/public/add_course')->with('success', 'Course added successfully');
+        return redirect()->to('/add_course')->with('success', 'Course added successfully');
+    }
+    public function display()
+    {
+        $courseModel = new CourseModel();
+        $data['courses'] = $courseModel->getAllCourses(); 
+
+        return view('course_management', $data); 
+    }
+    public function delete()
+    {
+        $courseModel = new CourseModel();
+        $courseId = $this->request->getPost('course_id'); // Get the course ID from POST data
+
+        // Perform deletion in the database
+        $courseModel->delete($courseId);
+
+        // Redirect back to the course list page or wherever appropriate
+        return redirect()->to('/courses');
+    }
+
+    public function search()
+    {
+        $courseModel = new CourseModel();
+
+        // Get the course code from the GET request
+        $courseCode = $this->request->getGet('course_code');
+
+        // Fetch courses based on course code
+        $data['courses'] = $courseModel->like('course_code', $courseCode)->findAll();
+
+        return view('course_management', $data);
     }
 }
