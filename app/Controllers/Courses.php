@@ -3,11 +3,11 @@
 namespace App\Controllers;
 use CodeIgniter\Controller;
 
-class Settings extends Controller
+class Courses extends Controller
 {
     public function index()
     {
-        return view('dashboard/settings/settings');
+        echo view('dashboard/index_user');
 
     }
 }

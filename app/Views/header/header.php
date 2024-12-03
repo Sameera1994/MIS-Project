@@ -36,7 +36,7 @@
                             data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="https://github.com/mdo.png" alt="User" width="40" height="40" class="rounded-circle">
                         </a>
-                        <a class="" href="<?= base_url('') ?>">          
+                        <a class="" href="<?= base_url('home/logout') ?>">          
                             <i class="fa-solid fa-right-from-bracket fa-xl"  style="color:#1b456e"></i>
                         </a>
                     </div>

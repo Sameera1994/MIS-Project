@@ -2,6 +2,10 @@
 
 use CodeIgniter\Router\RouteCollection;
 
+
+
+$routes->setAutoRoute(true);
+
 /**
  * @var RouteCollection $routes
  */
@@ -9,16 +13,16 @@ $routes->get('/', 'Welcome::index');
 $routes->get('/welcome', 'Welcome::index');
 
 
-$routes->get('/home', 'Home::index');
+// $routes->get('/home', 'Home::index');
 
-$routes->get('/login', 'Login::index');
-$routes->post('/login/login_post', 'Login::login_post');
-$routes->get('/login/logout', 'Login::logout');
-$routes->post('/login/store', 'Login::store');
-$routes->get('/register', 'Login::create');
+// $routes->get('/login', 'Login::index');
+// $routes->post('/login/login_post', 'Login::login_post');
+// $routes->get('/login/logout', 'Login::logout');
+// $routes->post('/login/store', 'Login::store');
+// $routes->get('/register', 'Login::create');
 
 
-// $routes->get('/dashboard', 'Dashboard::index');
+$routes->get('/dashboard/dashboard', 'Dashboard::index');
 $routes->get('/dashboard/index_user', 'UserManagement::index');
 $routes->get('/dashboard/create_user', 'UserManagement::create');
 $routes->post('/dashboard/store_user', 'UserManagement::store');

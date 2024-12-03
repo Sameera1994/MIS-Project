@@ -1,86 +1,89 @@
 <?php
 
 namespace App\Controllers;
-
-use App\Models\UserModel;
 use CodeIgniter\Controller;
+use App\Models\LoginModel;
 
 class Login extends Controller
 {
+
+
+    public $loginModel;
+    public $session;
+
+    public function __construct()
+    {
+        helper('form');
+        $this->loginModel = new LoginModel();
+        $this->session = session();
+    }
     public function index()
     {
-        echo view('login/login');
+        $data=[];
+        $data['validation'] = null;
+        $this->session->setTempdata(null);
 
-    }
+        if($this->request->getMethod()=='POST'){
+            $rules=[
+                'username' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Registration number is required',
+                    // 'min_length' => 'Registration number must be at least 5 characters long',
+                    // 'is_unique' => 'This registration number is already registered'
+                ]
+            ],
+            'password' => [
+                'rules' => 'required|min_length[8]',
+                'errors' => [
+                    'required' => 'Password is required',
+                    'min_length' => 'Password must be at least 8 characters long',
+                    // 'regex_match' => 'Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character'
+                ]
+            ],
+            ];
 
-    public function login_post()
-    {
-        $username = $this->request->getPost('username'); // Retrieve username from form input
-        $password = $this->request->getPost('password'); // Retrieve password from form input
-    
-        // Load the UserModel
-        $userModel = new \App\Models\UserModel();
-    
-        // Fetch the user by username
-        $user = $userModel->where('username', $username)->first();
-    
-        // Check if user exists and password matches
-        if ($user && password_verify($password, $user['password'])) {
-            // Redirect to home if credentials are correct
-            return redirect()->to('/home');
-        } else {
+            if ($this->validate($rules)) {
+
+                $username = $this->request->getVar('username');
+                $password = $this->request->getVar('password');
+                    
+                $userdata = $this->loginModel->verifyUsername($username);
+
+                if ($userdata) {
+                    if(password_verify($password, $userdata['password'])) {
+                        
+                        if($userdata['status']=='active'){
+                            $this->session->setTempdata('success', 'Loggin successful !', 3);
+                            $this->session->set('logged_user', $userdata['uniid']);
+                            return redirect()->to(base_url('home'));
+
+                        }else{
+                            $this->session->setTempdata('error', 'Please Activate your account, Please contact Admin', 3);
+                             return redirect()->to(current_url());
+
+
+                        }
+                    }else{
+                        $this->session->setTempdata('error', 'Password incorrect', 3);
+                        echo $password, $userdata['password'];
+                        // return redirect()->to(current_url());
+                    }                 
+
+                }else {
+                    $this->session->setTempdata('error', 'Username does not exist.', 3);
+                    return redirect()->to(current_url());
+                }
+                
+                
             
-            // return redirect()->back()->with('error', 'Invalid username or password');
-            // echo '<div>Something wrong</div>';
-            return redirect()->to('/home');
-
+            }else {
+                $data['validation']=$this->validator;
+            }
+            
+        }else{
+            
         }
-    }
-    
-    
-
-    public function logout()
-    {
-        session()->destroy();
-        return redirect()->to('login/login');
-    }
-
-
-
-
-
-
-    public function create()
-    {
-        return view('login/register'); // Return the form to create a new document
-    }
-
-    public function store()
-    {
-        $model = new UserModel();
-
-        if (!$this->validate([
-            'name'   => 'required',
-            'email' => 'required',
-            'username'   => 'required',
-            'department'   => 'required',
-            'password' => 'required',
-            'confirmPassword'   => 'required'
-        ])) {
-            return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
-        }
-
-        // Save data
-        $model->save([
-            'name'   => $this->request->getPost('name'),
-            'email' => $this->request->getPost('email'),
-            'username'   => $this->request->getPost('username'),
-            'department'   => $this->request->getPost('department'),
-            'password' => $this->request->getPost('password'),
-            'confirmPassword'   => $this->request->getPost('confirmPassword'),
-  
-        ]);
-
-        return redirect()->to('/home');
+        return view('login_view', $data);
     }
 }

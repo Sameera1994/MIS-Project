@@ -41,21 +41,23 @@
 
         .nav-link {
             padding: 1rem 1.25rem;
-            color: #6c757d;
+            color: #0d6efd;
             transition: all 0.3s ease;
             margin: 0.25rem 0;
             white-space: nowrap;
-        }
-
-        .nav-link:hover {
-            color: #0d6efd;
-        }
-
-        .nav-link {
-            background-color: #e7f1ff;
-            color: #0d6efd;
             font-weight: 500;
+
         }
+
+        /* .nav-link:: {
+            background-color: #0d6efd;
+        } */
+        .nav-item .nav-link.active {
+    background-color: red;
+    color: white; /* Optional for better contrast */
+}
+
+        
 
         .nav-link i {
             font-size: 1.1rem;
@@ -161,56 +163,63 @@
 </head>
 
 <body>
+
+
     <!-- Menu Toggle Button -->
     <button class="menu-toggle btn" type="button" onclick="toggleSidebar()">
         <i class="bi bi-list"></i>
     </button>
 
-    <!-- Overlay -->
-    <div class="overlay" onclick="toggleSidebar()"></div>
-
+    
     <!-- Sidebar -->
     <div class="sidebar">
         <div class="sidebar-content">
             <ul class="nav flex-column">
+            <li class="nav-item ">
+                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('dashboard/dashboard') ? 'active' : '' ?>" 
+                       href="<?= base_url('dashboard/dashboard') ?>">
+                        <i class="bi bi-people"></i>
+                        Home
+                    </a>
+                </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url().'dashboard/index_user' ? 'active' : '' ?>" 
-                       href="<?= base_url('dashboard/index_user') ?>">
+                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('students') ? 'active' : '' ?>" 
+                    href="<?= base_url('students') ?>">
                         <i class="bi bi-people"></i>
                         Students Management
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url('dashboard/index_course') ? 'active' : '' ?>"
-                       href="<?= base_url('dashboard/index_course') ?>">
+                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('courses') ? 'active' : '' ?>"
+                       href="<?= base_url('courses') ?>">
                         <i class="bi bi-person-circle"></i>
                         Courses Management
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url().'dashboard/index_admin' ? 'active' : '' ?>"
-                       href="<?= base_url('dashboard/admins/index_admin') ?>">
+                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('admins') ? 'active' : '' ?>"
+                       href="<?= base_url('admins') ?>">
                         <i class="bi bi-file-text"></i>
                         Administrators Management
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2 <?= (basename($_SERVER['PHP_SELF']) == 'reports.php') ? 'active' : '' ?>"
-                       href="reports.php">
+                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('reports') ? 'active' : '' ?>"
+                       href="<?= base_url('reports') ?>">
                         <i class="bi bi-graph-up"></i>
                         Reports and Analytics
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2 <?= (basename($_SERVER['PHP_SELF']) == 'settings.php') ? 'active' : '' ?>"
-                       href="settings.php">
+                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('settings') ? 'active' : '' ?>"
+                       href="<?= base_url('settings') ?>">
                         <i class="bi bi-gear"></i>
                         Settings
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2 <?= (basename($_SERVER['PHP_SELF']) == 'signout.php') ? 'active' : '' ?>"
-                       href="signout.php">
+                    <a class="nav-link d-flex align-items-center gap-2 "
+                       href="<?= base_url('dashboard/logout') ?>">
                         <i class="bi bi-door-closed"></i>
                         Sign out
                     </a>

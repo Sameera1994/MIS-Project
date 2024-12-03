@@ -45,37 +45,37 @@
         <main>
         <div class="container py-4">
     <div class="row g-4">
-      <div class="col-md-4">
+      <div class="col-lg-4 col-md-6">
         <div class="card">
           <i class="fas fa-user-cog"></i>
           <h5 class="mt-2">Profile</h5>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4 col-md-6">
         <div class="card">
           <i class="fas fa-award"></i>
           <h5 class="mt-2">Results</h5>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4 col-md-6">
         <div class="card">
           <i class="fas fa-file-alt"></i>
           <h5 class="mt-2">Forms</h5>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4  col-md-6">
         <div class="card">
           <i class="fas fa-users"></i>
           <h5 class="mt-2">Attendance</h5>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4  col-md-6">
         <div class="card">
           <i class="fas fa-square"></i>
           <h5 class="mt-2">Button_5</h5>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4  col-md-6">
         <div class="card">
           <i class="fas fa-square"></i>
           <h5 class="mt-2">Button_6</h5>
