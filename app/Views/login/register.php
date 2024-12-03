@@ -69,6 +69,12 @@ $validation->setRules([
             font-size: 0.6rem;
             margin-top: 0.25rem;
         }
+
+        .btn-primary {
+        background-color: #0f3d6b  !important;
+        border-color: #0f3d6b !important;
+        font-weight: 500;
+    }
     </style>
 </head>
 
@@ -93,7 +99,7 @@ $validation->setRules([
                     <img src="public\assests\Logo.png" alt="Logo" width="90" height="90">
                 </div>
                 
-                <h2 class="mb-4 text-primary">Register</h2>
+                <h2 class="mb-3 fw-bold" style="color:#0f3d6b ">Register</h2>
 
                 <div class="form-group mb-3">
                     <input type="text" class="form-control <?= ($validation->hasError('name')) ? 'is-invalid' : '' ?>" 
@@ -153,7 +159,8 @@ $validation->setRules([
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-primary w-100 mb-3">Submit</button>
+                <button class="btn btn-primary btn-lg w-100 mb-3" type="submit">Register</button>
+                <!-- <button type="submit" class="btn btn-primary w-100 mb-3">Submit</button> -->
 
                 <a href="<?= base_url('login') ?>" class="d-block mb-2">Sign In</a>
 

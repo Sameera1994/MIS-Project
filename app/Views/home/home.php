@@ -13,77 +13,76 @@
     <link href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="icon" href="public\assests\Logo.png" sizes="32x32" type="image/png">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    .card {
+      background-color: #1b456e !important;
+      color: #d2d4d6 !important;
+      text-align: center;
+      border: none !important;
+      border-radius: 8px;
+      /* padding-left: 10px; */
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin-left: 60px;
+      margin-right: 60px;
+      /* margin: 40px; */
+      transition: transform 0.8s ease-in-out;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card i {
+      font-size: 40px;
+      /* margin-bottom: 10px; */
+    }
+  </style>
 </head>
 
 <body>
 
     <div class="container py-3">
         <main>
-            <h2 class="display-6 text-center mb-4">Summary</h2>
-
-            <div class="table-responsive">
-                <table class="table text-center">
-                    <thead>
-                        <tr>
-                            <th scope="col">Semester</th>
-                            <th scope="col">Subjects</th>
-                            <th scope="col">GPA</th>
-                            <th scope="col">Attendance</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row" class="text-start">1 Semester</th>
-                            <td><a href="#">Compulsory</a> <a href="#">Elective</a></td>
-                            <td>3.5</td>
-                            <td>82%</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="text-start">2 Semester</th>
-                            <td><a href="#">Compulsory</a> <a href="#">Elective</a></td>
-                            <td>3.5</td>
-                            <td>82%</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="text-start">3 Semester</th>
-                            <td><a href="#">Compulsory</a> <a href="#">Elective</a></td>
-                            <td>3.5</td>
-                            <td>82%</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="text-start">4 Semester</th>
-                            <td><a href="#">Compulsory</a> <a href="#">Elective</a></td>
-                            <td>3.5</td>
-                            <td>82%</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="text-start">5 Semester</th>
-                            <td><a href="#">Compulsory</a> <a href="#">Elective</a></td>
-                            <td>3.5</td>
-                            <td>82%</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="text-start">6 Semester</th>
-                            <td><a href="#">Compulsory</a> <a href="#">Elective</a></td>
-                            <td>3.5</td>
-                            <td>82%</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="text-start">7 Semester</th>
-                            <td><a href="#">Compulsory</a> <a href="#">Elective</a></td>
-                            <td>3.5</td>
-                            <td>82%</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="text-start">8 Semester</th>
-                            <td><a href="#">Compulsory</a> <a href="#">Elective</a></td>
-                            <td>3.5</td>
-                            <td>82%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        <div class="container py-4">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <i class="fas fa-user-cog"></i>
+          <h5 class="mt-2">Profile</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <i class="fas fa-award"></i>
+          <h5 class="mt-2">Results</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <i class="fas fa-file-alt"></i>
+          <h5 class="mt-2">Forms</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <i class="fas fa-users"></i>
+          <h5 class="mt-2">Attendance</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <i class="fas fa-square"></i>
+          <h5 class="mt-2">Button_5</h5>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <i class="fas fa-square"></i>
+          <h5 class="mt-2">Button_6</h5>
+        </div>
+      </div>
+    </div>
+  </div>
         </main>
     </div>
 

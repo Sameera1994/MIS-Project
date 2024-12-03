@@ -14,7 +14,13 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="icon" href="public\assests\Logo.png" sizes="32x32" type="image/png">
 
-
+<style>
+    .btn-primary {
+        background-color: #0f3d6b  !important;
+        border-color: #0f3d6b !important;
+        font-weight: 500;
+    }
+</style>
 </head>
 
 <body class="d-flex flex-column min-vh-100 bg-light text-center">
@@ -28,7 +34,7 @@
                     <img src="public/assests/Logo.png" alt="Logo" width="150" height="150">
                 </div>
                 
-                <h2 class="mb-3 text-primary">Sign In</h2>
+                <h2 class="mb-3 fw-bold" style="color:#0f3d6b ">Sign In</h2>
 
                 <div class="mb-3">
                     <input name="username" type="text" class="form-control" placeholder="Username" required>

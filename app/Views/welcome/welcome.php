@@ -15,6 +15,13 @@
 
      
     <link rel="icon" href="public\assests\Logo.png" sizes="32x32" type="image/png">
+    <style>
+        .btn-primary{
+            background-color: #13487d !important;
+            border: #13487d !important;
+            font-weight:500;
+        }
+    </style>
 </head>
 
 <body class="d-flex flex-column h-100 text-center bg-light">
@@ -28,7 +35,7 @@
             <p class="lead">Manage courses, assignments, and student information in one place for administrators.
                 Students can view course details.</p>
             <p class="lead">
-                <a href="<?= base_url('login') ?>" class="btn btn-primary btn-lg">Sign In</a>
+                <a href="<?= base_url('login') ?>" class="btn btn-primary btn-lg ">Sign In</a>
             </p>
         </main>
     </div>

@@ -13,24 +13,34 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="icon" href="public\assests\Logo.png" sizes="32x32" type="image/png">
 
+<style>
+    .header-bg{
+        background-color: #d6d6d6;
+    }
+</style>
+
 </head>
 
 <body>
 
-    <div class="bg-body-secondary">
-        <header class="p-3 mb-3 border-bottom">
+    <div class="header-bg">
+        <header class="p-4 mb-3 border-bottom">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
-                    <img src="public/assests/Logo.png" alt="Logo" width="32" height="32" class="rounded-circle">
+                    <img src="public/assests/Logo.png" alt="Logo" width="60" height="60" class="rounded-circle">
                     <div class="d-flex align-items-center">
                         <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
                             <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
                         </form> -->
-                        <a href="#" class="d-block link-dark text-decoration-none "
+                        <a href="#" class="d-block link-dark text-decoration-none mx-5"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="https://github.com/mdo.png" alt="User" width="32" height="32" class="rounded-circle">
+                            <img src="https://github.com/mdo.png" alt="User" width="40" height="40" class="rounded-circle">
+                        </a>
+                        <a class="" href="<?= base_url('') ?>">          
+                            <i class="fa-solid fa-right-from-bracket fa-xl"  style="color:#1b456e"></i>
                         </a>
                     </div>
+                   
                 </div>
             </div>
         </header>
