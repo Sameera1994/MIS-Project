@@ -11,7 +11,7 @@ class Dashboard extends Controller
         //     return redirect()->to(base_url('login'));
         // } 
         // echo view('dashboard/vertical_navigation');
-        echo view('dashboard/dashboard');
+        return view('dashboard/dashboard');
 
     }
 

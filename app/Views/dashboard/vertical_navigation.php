@@ -49,11 +49,9 @@
 
         }
 
-        /* .nav-link:: {
-            background-color: #0d6efd;
-        } */
+        
         .nav-item .nav-link.active {
-    background-color: red;
+    background-color: #0d6efd;
     color: white; /* Optional for better contrast */
 }
 
@@ -176,8 +174,8 @@
         <div class="sidebar-content">
             <ul class="nav flex-column">
             <li class="nav-item ">
-                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('dashboard/dashboard') ? 'active' : '' ?>" 
-                       href="<?= base_url('dashboard/dashboard') ?>">
+                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('dashboard') ? 'active' : '' ?>" 
+                       href="<?= base_url('dashboard') ?>">
                         <i class="bi bi-people"></i>
                         Home
                     </a>
