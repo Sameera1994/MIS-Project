@@ -50,6 +50,7 @@ class Admins extends Controller
             'name'   => 'required',
             'email' => 'required',
             'telephone'   => 'required',
+            'password'=>'required',
             'access_level' => 'required'
         ])) {
             return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
@@ -60,6 +61,7 @@ class Admins extends Controller
             'name'   => $this->request->getPost('name'),
             'email' => $this->request->getPost('email'),
             'telephone'   => $this->request->getPost('telephone'),
+            'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
             'access_level'   => $this->request->getPost('access_level'),
             
   
@@ -97,6 +99,8 @@ class Admins extends Controller
             'name'   => 'required',
             'email' => 'required',
             'telephone'   => 'required',
+            'password'=>'required',
+
             'access_level' => 'required'
         ])) {
             return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
@@ -107,6 +111,7 @@ class Admins extends Controller
             'name'   => $this->request->getPost('name'),
             'email' => $this->request->getPost('email'),
             'telephone'   => $this->request->getPost('telephone'),
+            'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
             'access_level'   => $this->request->getPost('access_level'),
             ]);
 
@@ -132,7 +137,7 @@ class Admins extends Controller
         if (!session()->has('logged_admin')) {
             return redirect()->to(base_url().'login');
         } 
-        
+
         // Load the model
         $adminModel = new AdminModel();
         
