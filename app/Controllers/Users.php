@@ -69,7 +69,7 @@ class Users extends Controller
             'name'   => $this->request->getPost('name'),
             'email' => $this->request->getPost('email'),
             'username'   => $this->request->getPost('username'),
-            'department'   => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+            'department'   => $this->request->getPost('department'),
             'password' => $this->request->getPost('password'),
   
         ]);

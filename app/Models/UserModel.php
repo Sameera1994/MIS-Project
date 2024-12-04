@@ -20,4 +20,29 @@ class UserModel extends Model
                       ->findAll();
       }
 
+      public function getDepartmentPercentages()
+      {
+          // Count total users
+          $totalUsers = $this->countAll();
+          
+          // Get department counts
+          $departmentQuery = $this->select('department, COUNT(*) as dept_count')
+                                  ->groupBy('department')
+                                  ->get();
+          
+          // Calculate percentages
+          $departments = [];
+          foreach ($departmentQuery->getResult() as $row) {
+              $percentage = round(($row->dept_count / $totalUsers) * 100, 2);
+              $departments[] = [
+                  'name' => $row->department,
+                  'count' => $row->dept_count,
+                  'percentage' => $percentage
+              ];
+          }
+          
+          return $departments;
+      }
+
+
 }

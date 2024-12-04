@@ -13,7 +13,8 @@
     <link rel="manifest" href="public\assests\Logo.png">
     <link rel="mask-icon" href="" color="#712cf9">
     <link rel="icon" href="public\assests\Logo.png">
-    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <style>
         .sidebar {
             position: fixed;
@@ -46,20 +47,11 @@
             margin: 0.25rem 0;
             white-space: nowrap;
             font-weight: 500;
-
         }
 
-        
         .nav-item .nav-link.active {
-    background-color: #0d6efd;
-    color: white; /* Optional for better contrast */
-}
-
-        
-
-        .nav-link i {
-            font-size: 1.1rem;
-            width: 1.5rem;
+            background-color: #0d6efd;
+            color: white;
         }
 
         .menu-toggle {
@@ -70,10 +62,10 @@
             display: block;
             padding: 0.5rem;
             background-color: #fff;
-            border: 1px solid rgba(0, 0, 0, 0.1);
-            border-radius: 4px;
+            border: 0;
         }
 
+        
         .overlay {
             display: none;
             position: fixed;
@@ -87,56 +79,6 @@
 
         .main-content {
             padding-top: 4rem;
-        }
-
-        /* Responsive table styles */
-        .table-responsive-stack {
-            display: block;
-            width: 100%;
-        }
-
-        @media screen and (max-width: 767px) {
-            .table-responsive-stack tr {
-                display: block;
-                margin-bottom: 1rem;
-                border: 1px solid #ddd;
-            }
-
-            .table-responsive-stack td {
-                display: block;
-                text-align: right;
-                padding: 0.75rem;
-                border-bottom: 1px solid #ddd;
-            }
-
-            .table-responsive-stack td::before {
-                content: attr(data-label);
-                float: left;
-                font-weight: bold;
-            }
-
-            .table-responsive-stack thead {
-                display: none;
-            }
-
-            .search-add-container {
-                flex-direction: column;
-                gap: 1rem;
-            }
-
-            .search-container {
-                width: 100%;
-            }
-
-            .search-container form {
-                display: flex;
-                gap: 0.5rem;
-            }
-
-            .search-container input {
-                flex: 1;
-                width: auto !important;
-            }
         }
 
         @media (min-width: 768px) {
@@ -161,73 +103,79 @@
 </head>
 
 <body>
-<?php 
-    $currentUrl = current_url();
-    $baseUsersUrl = base_url('users');
+    <?php 
+        $currentUrl = current_url();
+        $isUsersActive = strpos($currentUrl, base_url('users')) === 0;
+        $isCoursesActive = strpos($currentUrl, base_url('courses')) === 0;
+        $isAdminsActive = strpos($currentUrl, base_url('admins')) === 0;
+    ?>
 
-    // Check if the current URL matches or starts with the base URL
-    $isActive = strpos($currentUrl, $baseUsersUrl) === 0;
-?>
-
-    <!-- Menu Toggle Button -->
-    <button class="menu-toggle btn" type="button" onclick="toggleSidebar()">
-        <i class="bi bi-list"></i>
+    <button class="menu-toggle  ">
+        <i class="bi bi-list " ></i>
     </button>
+    <div class="overlay"></div>
 
-    
     <!-- Sidebar -->
     <div class="sidebar">
-        <div class="sidebar-content">
+        <div class="sidebar-content pt-5">
             <ul class="nav flex-column">
-            <li class="nav-item ">
+                <li class="nav-item">
                     <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('dashboard') ? 'active' : '' ?>" 
                        href="<?= base_url('dashboard') ?>">
-                        <i class="bi bi-people"></i>
-                        Home
+                        <i class="bi bi-people"></i> Home
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2 <?= $isActive ? 'active' : '' ?>" 
+                    <a class="nav-link d-flex align-items-center gap-2 <?= $isUsersActive ? 'active' : '' ?>" 
                     href="<?= base_url('users') ?>">
-                        <i class="bi bi-people"></i>
-                        Students Management
+                        <i class="bi bi-people"></i> Students Management
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('courses') ? 'active' : '' ?>"
-                       href="<?= base_url('courses') ?>">
-                        <i class="bi bi-person-circle"></i>
-                        Courses Management
+                    <a class="nav-link d-flex align-items-center gap-2 <?= $isCoursesActive ? 'active' : '' ?>"
+                    href="<?= base_url('courses') ?>">
+                        <i class="bi bi-person-circle"></i> Courses Management
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('admins') ? 'active' : '' ?>"
-                       href="<?= base_url('admins') ?>">
-                        <i class="bi bi-file-text"></i>
-                        Administrators Management
+                    <a class="nav-link d-flex align-items-center gap-2 <?= $isAdminsActive ? 'active' : '' ?>"
+                    href="<?= base_url('admins') ?>">
+                        <i class="bi bi-file-text"></i> Administrators Management
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('reports') ? 'active' : '' ?>"
                        href="<?= base_url('reports') ?>">
-                        <i class="bi bi-graph-up"></i>
-                        Reports and Analytics
+                        <i class="bi bi-graph-up"></i> Reports and Analytics
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('settings') ? 'active' : '' ?>"
                        href="<?= base_url('settings') ?>">
-                        <i class="bi bi-gear"></i>
-                        Settings
+                        <i class="bi bi-gear"></i> Settings
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2 "
-                       href="<?= base_url('dashboard/logout') ?>">
-                        <i class="bi bi-door-closed"></i>
-                        Sign out
+                    <a class="nav-link d-flex align-items-center gap-2" href="<?= base_url('dashboard/logout') ?>">
+                        <i class="bi bi-door-closed"></i> Sign out
                     </a>
                 </li>
             </ul>
         </div>
     </div>
+
+    <script>
+        const toggleButton = document.querySelector('.menu-toggle');
+        const sidebar = document.querySelector('.sidebar');
+        const overlay = document.querySelector('.overlay');
+
+        toggleButton.addEventListener('click', () => {
+            sidebar.classList.toggle('show');
+            overlay.style.display = sidebar.classList.contains('show') ? 'block' : 'none';
+        });
+
+        overlay.addEventListener('click', () => {
+            sidebar.classList.remove('show');
+            overlay.style.display = 'none';
+        });
+    </script>
