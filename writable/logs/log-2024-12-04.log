@@ -768,3 +768,1648 @@ in APPPATH\Views\dashboard\users\edit_user.php on line 9.
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 INFO - 2024-12-04 09:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2024-12-04 09:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:18:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:18:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:18:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:18:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:21:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:39:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:39:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:39:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:39:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:39:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:39:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:39:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:39:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:39:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:39:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:39:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:39:41 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:38 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:40:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:43:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:43:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:43:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:43:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:43:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:43:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:43:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:43:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:43:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:43:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:43:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:43:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:44:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:44:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:44:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:44:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:45:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:45:42 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:45:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:45:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:45:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:45:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:45:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:45:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:45:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:45:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:45:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:45:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:46:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:46:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:46:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:46:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:46:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:46:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:46:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:46:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:46:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:46:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:46:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:46:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:47:18 --> Error: Call to undefined function set_value()
+[Method: GET, Route: users/edit/40]
+in APPPATH\Views\dashboard\users\edit_user.php on line 31.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 4 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('40')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:47:56 --> Error: Call to undefined function set_value()
+[Method: GET, Route: users/edit/40]
+in APPPATH\Views\dashboard\users\edit_user.php on line 31.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 4 APPPATH\Controllers\Users.php(85): view('dashboard/users/edit_user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('40')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:49:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(91): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:49:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(91): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:49:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(91): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:49:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(91): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:49:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(91): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:49:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(91): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:49:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(91): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:49:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(91): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:50:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/dashboard.js]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(91): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('dashboard.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:50:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(91): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:50:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(91): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:50:59 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: users/edit/public/assests/Logo.png]
+in APPPATH\Views\dashboard\users\edit_user.php on line 9.
+ 1 APPPATH\Views\dashboard\users\edit_user.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/edit_user', [], true)
+ 5 APPPATH\Controllers\Users.php(91): view('dashboard/users/edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->edit('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 09:52:11 --> ErrorException: Undefined variable $user
+[Method: GET, Route: users/create]
+in APPPATH\Views\dashboard\users\create_user.php on line 23.
+ 1 APPPATH\Views\dashboard\users\create_user.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\create_user.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\users\\create_user.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/users/create_user', [], true)
+ 5 APPPATH\Controllers\Users.php(42): view('dashboard/users/create_user')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Users->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 09:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 09:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

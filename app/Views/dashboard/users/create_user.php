@@ -4,7 +4,7 @@
 <main class="main-content px-3 px-md-4">
     <div
         class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Registration Form</h1>
+        <h1 class="h2">Student Admission Form</h1>
 
     </div>
     <form action="<?= base_url('users/store') ?>" method="post">
@@ -17,12 +17,18 @@
         </div>
 
         <div class="form-group mb-3">
+            <label for="department">Department:</label>
             <select name="department" class="form-select">
-                <option value="" disabled selected>Select Department</option>
-                <option value="Computing and Information Systems">Computing and Information Systems
+                <option value="" disabled >Select Department</option>
+                <option value="Computing and Information Systems" <?= old('department') === 'Computing and Information Systems' ? 'selected' : 'Computing and Information Systems' ?>>
+                    Computing and Information Systems
                 </option>
-                <option value="Sofware Engineering">Software Engineering</option>
-                <option value="Data Science">Data Science</option>
+                <option value="Software Engineering" <?= old('department') === 'Software Engineering' ? 'selected' : 'Software Engineering' ?>>
+                    Software Engineering
+                </option>
+                <option value="Data Science" <?= old('department') === 'Data Science' ? 'selected' : 'Data Science' ?>>
+                    Data Science
+                </option>
             </select>
         </div>
 

@@ -25,9 +25,23 @@
     </div>
 
     <div class="form-group mb-3">
-        <label for="username">Department:</label>
-        <input type="text" class="form-control" name="department" value="<?= old('department', $user['department']) ?>">
+        <select name="department" class="form-select">
+            <option value="" disabled>Select Department</option>
+            <option value="Computing and Information Systems" 
+                    <?= $user['department'] == 'Computing and Information Systems' ? 'selected' : '' ?>>
+                Computing and Information Systems
+            </option>
+            <option value="Software Engineering" 
+                    <?= $user['department'] == 'Software Engineering' ? 'selected' : '' ?>>
+                Software Engineering
+            </option>
+            <option value="Data Science" 
+                    <?= $user['department'] == 'Data Science' ? 'selected' : '' ?>>
+                Data Science
+            </option>
+        </select>
     </div>
+
 
     <div class="form-group mb-3">
         <label for="password">New Password:</label>

@@ -6,6 +6,12 @@ use CodeIgniter\Controller;
 
 class Users extends Controller
 {
+
+    public function __construct()
+    {
+        helper('form');
+
+    }
     public function index()
     {
 

@@ -2,12 +2,12 @@
 
 <main class="main-content px-3 px-md-4">
         <div class="d-flex align-items-center border-bottom pt-3 pb-2 mb-3">
-            <h1 class="h2 text-center mx-auto">Admin Management</h1>
+            <h1 class="h2 text-center mx-auto">Administrator Management</h1>
         </div>
 
         <div class="d-flex justify-content-between my-4 search-add-container">
             <div class="search-container">
-                <form action="<?= base_url('dashboard/admins/search_admin') ?>" method="get">
+                <form action="<?= base_url('admins/search') ?>" method="get">
                     <div class="form-control border-0">
                         <input type="text" name="query" class="rounded border border-secondary-subtle p-1" placeholder="Search Admin">
                     <button type="submit" class="btn btn-primary">Search</button>
@@ -15,7 +15,7 @@
                 </form>
             </div>
             <div>
-                <a class="btn btn-success" href="<?= base_url('dashboard/admins/create_admin') ?>">Add New Admin</a>
+                <a class="btn btn-success" href="<?= base_url('admins/create') ?>">Add New Admin</a>
             </div>
         </div>
 
@@ -40,8 +40,8 @@
                                 <td data-label="Email"><?= $a['telephone'] ?></td>
                                 <td data-label="Action">
                                 <div class="d-flex gap-2">
-                                        <a href="<?= base_url('dashboard/admins/edit_admin/' . $a['id']) ?>" class="btn btn-sm btn-primary">Edit</a>
-                                        <a href="<?= base_url('dashboard/admins/delete_admin/' . $a['id']) ?>" class="btn btn-sm btn-danger">Delete</a>
+                                        <a href="<?= base_url('admins/edit/' . $a['id']) ?>" class="btn btn-sm btn-primary">Edit</a>
+                                        <a href="<?= base_url('admins/delete/' . $a['id']) ?>" class="btn btn-sm btn-danger">Delete</a>
                                     </div> 
                                 </td>
                             </tr>

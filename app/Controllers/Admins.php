@@ -29,11 +29,21 @@ class Admins extends Controller
 
     public function create()
     {
+
+        if (!session()->has('logged_admin')) {
+            return redirect()->to(base_url().'login');
+        } 
+
         return view('dashboard/admins/create_admin'); // Return the form to create a new document
     }
 
     public function store()
     {
+
+        if (!session()->has('logged_admin')) {
+            return redirect()->to(base_url().'login');
+        } 
+
         $model = new AdminModel();
 
         if (!$this->validate([
@@ -55,12 +65,17 @@ class Admins extends Controller
   
         ]);
 
-        return redirect()->to('/dashboard/admins/index_admin');
+        return redirect()->to('/admins/index');
     }
 
 
     public function edit($id)
     {
+
+        if (!session()->has('logged_admin')) {
+            return redirect()->to(base_url().'login');
+        } 
+
         $model = new AdminModel();
         $data['admin'] = $model->find($id);
 
@@ -71,6 +86,11 @@ class Admins extends Controller
 
     public function update($id)
     {
+
+        if (!session()->has('logged_admin')) {
+            return redirect()->to(base_url().'login');
+        } 
+
         $model = new AdminModel();
 
         if (!$this->validate([
@@ -90,19 +110,29 @@ class Admins extends Controller
             'access_level'   => $this->request->getPost('access_level'),
             ]);
 
-        return redirect()->to('/dashboard/admins/index_admin');
+        return redirect()->to('/admins/index');
     }
 
     public function delete($id)
     {
+
+        if (!session()->has('logged_admin')) {
+            return redirect()->to(base_url().'login');
+        } 
+
         $model = new AdminModel();
         $model->delete($id);
 
-        return redirect()->to('/dashboard/admins/index_admin'); 
+        return redirect()->to('/admins/index'); 
     }
 
     public function search()
     {
+
+        if (!session()->has('logged_admin')) {
+            return redirect()->to(base_url().'login');
+        } 
+        
         // Load the model
         $adminModel = new AdminModel();
         
