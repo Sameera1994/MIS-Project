@@ -59,6 +59,7 @@ class Login extends Controller
                             $this->session->set('logged_admin', $userdata['id']);
                             $this->session->setTempdata('success', 'Admin login successful!', 3);
                             return redirect()->to(base_url('dashboard'));
+                           
                         } else {
                             // User login
                             if($userdata['status'] == 'active'){

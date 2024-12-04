@@ -9,11 +9,21 @@ class Admins extends Controller
     public function index()
     {
 
+        if (!session()->has('logged_admin')) {
+            return redirect()->to(base_url().'login');
+        } 
+
         $model = new AdminModel();
         
         $data['admin'] = $model->findAll(); // Fetch all document
         return view('dashboard/admins/index_admin', $data);
 
+    }
+
+    public function logout(){
+        session()->remove('logged_admin');
+        session()->destroy();
+        return redirect()->to(base_url('login'));
     }
 
 
@@ -105,5 +115,7 @@ class Admins extends Controller
         // Load the view and pass the search results
         return view('dashboard/admins/index_admin', $data);
     }
+
+    
 
 }

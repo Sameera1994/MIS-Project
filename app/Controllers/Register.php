@@ -67,6 +67,15 @@ class Register extends Controller
                     // 'regex_match' => 'Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character'
                 ]
             ],
+            'confirmPassword' => [
+                'rules' => 'required|matches[password]',
+                
+                'errors' => [
+                    'required' => 'Password is required',
+                    'min_length' => 'Password must be at least 8 characters long',
+                    'matches'=> 'Confirm password must be matched to password',
+                ]
+            ],
             
             ];
 

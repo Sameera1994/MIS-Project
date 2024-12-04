@@ -181,8 +181,8 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('students') ? 'active' : '' ?>" 
-                    href="<?= base_url('students') ?>">
+                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('users') ? 'active' : '' ?>" 
+                    href="<?= base_url('users') ?>">
                         <i class="bi bi-people"></i>
                         Students Management
                     </a>
