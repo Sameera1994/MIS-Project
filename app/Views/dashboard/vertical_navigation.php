@@ -161,7 +161,13 @@
 </head>
 
 <body>
+<?php 
+    $currentUrl = current_url();
+    $baseUsersUrl = base_url('users');
 
+    // Check if the current URL matches or starts with the base URL
+    $isActive = strpos($currentUrl, $baseUsersUrl) === 0;
+?>
 
     <!-- Menu Toggle Button -->
     <button class="menu-toggle btn" type="button" onclick="toggleSidebar()">
@@ -181,7 +187,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center gap-2 <?= current_url() === base_url('users') ? 'active' : '' ?>" 
+                    <a class="nav-link d-flex align-items-center gap-2 <?= $isActive ? 'active' : '' ?>" 
                     href="<?= base_url('users') ?>">
                         <i class="bi bi-people"></i>
                         Students Management

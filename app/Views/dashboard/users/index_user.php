@@ -7,7 +7,7 @@
 
         <div class="d-flex justify-content-between my-4 search-add-container">
             <div class="search-container">
-                <form action="<?= base_url('dashboard/search_user') ?>" method="get">
+                <form action="<?= base_url('users/search') ?>" method="get">
                     <div class="form-control border-0">
                         <input type="text" name="query" class="rounded border border-secondary-subtle p-1" placeholder="Search Students">
                     <button type="submit" class="btn btn-primary">Search</button>

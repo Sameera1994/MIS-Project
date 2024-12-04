@@ -68,7 +68,7 @@ class Users extends Controller
   
         ]);
 
-        return redirect()->to('/dashboard/users/index_user');
+        return redirect()->to('users/index');
     }
 
 
@@ -117,7 +117,7 @@ class Users extends Controller
             // 'confirmPassword'   => $this->request->getPost('confirmPassword'),
         ]);
 
-        return redirect()->to('/dashboard/users/index_user');
+        return redirect()->to('/users/index');
     }
 
     public function delete($uid)
@@ -130,7 +130,7 @@ class Users extends Controller
         $model = new UserModel();
         $model->delete($uid);
 
-        return redirect()->to('/dashboard/users/index_user'); 
+        return redirect()->to('/users/index'); 
     }
 
     public function search()
