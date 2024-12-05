@@ -100,6 +100,51 @@
                 display: none !important;
             }
         }
+
+        /* settings */
+        .settings-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 30px;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #f1f3f5;
+            padding-bottom: 15px;
+        }
+
+        profile-header-info{
+            margin-left: 10px;
+        }
+        .profile-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+        .profile-header-info h2 {
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        .profile-header-info p {
+            color: #6c757d;
+            margin-bottom: 0;
+        }
+        .form-label {
+            font-weight: 600;
+            color: #495057;
+        }
+        .card-stats {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 

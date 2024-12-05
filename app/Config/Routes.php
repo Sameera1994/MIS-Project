@@ -12,6 +12,9 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Welcome::index');
 $routes->get('/welcome', 'Welcome::index');
 
+$routes->get('settings', 'Settings::index');
+$routes->post('settings/updateProfile', 'Settings::updateProfile');
+$routes->post('settings/uploadProfileImage', 'Settings::uploadProfileImage');
 
 // $routes->get('/home', 'Home::index');
 
