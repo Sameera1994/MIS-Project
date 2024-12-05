@@ -31,7 +31,15 @@
 
     <div class="form-group mb-3">
         <label for="access_level">Access Level:</label>
-        <input type="text" class="form-control" name="access_level" value="<?= old('access_level', $admin['access_level']) ?>">
+        <select name="access_level" class="form-select">
+            <option value="" disabled selected>Select Access Level</option>
+            <option value="1" <?= $admin['access_level'] == '1' ? 'selected' : '' ?>>
+                1 (Super Admin)
+            </option>
+            <option value="2" <?= $admin['access_level'] == '2' ? 'selected' : '' ?>>
+                2 (Admin)
+            </option>
+        </select>
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>

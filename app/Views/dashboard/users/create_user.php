@@ -19,16 +19,11 @@
         <div class="form-group mb-3">
             <label for="department">Department:</label>
             <select name="department" class="form-select">
-                <option value="" disabled >Select Department</option>
-                <option value="Computing and Information Systems" <?= old('department') === 'Computing and Information Systems' ? 'selected' : 'Computing and Information Systems' ?>>
-                    Computing and Information Systems
+            <option value="" disabled selected>Select Department</option>
+                <option value="Computing and Information Systems">Computing and Information Systems
                 </option>
-                <option value="Software Engineering" <?= old('department') === 'Software Engineering' ? 'selected' : 'Software Engineering' ?>>
-                    Software Engineering
-                </option>
-                <option value="Data Science" <?= old('department') === 'Data Science' ? 'selected' : 'Data Science' ?>>
-                    Data Science
-                </option>
+                <option value="Sofware Engineering">Software Engineering</option>
+                <option value="Data Science">Data Science</option>
             </select>
         </div>
 

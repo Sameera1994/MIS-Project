@@ -16,15 +16,7 @@
             <input type="text" class="form-control" name="name" value="<?= old('name') ?>">
         </div>
 
-        <!-- <div class="form-group mb-3">
-            <select name="department" class="form-select">
-                <option value="" disabled selected>Select Department</option>
-                <option value="Computing and Information Systems">Computing and Information Systems
-                </option>
-                <option value="Sofware Engineering">Software Engineering</option>
-                <option value="Data Science">Data Science</option>
-            </select>
-        </div> -->
+
 
         <div class="form-group mb-3">
             <label for="email">Email:</label>
@@ -43,7 +35,15 @@
 
         <div class="form-group mb-3">
             <label for="access_level">Access Level:</label>
-            <input type="text" class="form-control" name="access_level" value="<?= old('access_level') ?>">
+            <select name="access_level" class="form-select">
+                <option value="" disabled selected>Select Access Level</option>
+                <option value="1">
+                    1 (Super Admin)
+                </option>
+                <option value="2">
+                    2 (Admin)
+                </option>
+            </select>
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>

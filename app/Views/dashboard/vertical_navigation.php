@@ -61,7 +61,8 @@
             z-index: 101;
             display: block;
             padding: 0.5rem;
-            background-color: #fff;
+            color: black;
+            background-color: transparent;
             border: 0;
         }
 
