@@ -26,6 +26,11 @@ class Settings extends Controller
     // Load the settings page
     public function index()
     {
+
+        if (!session()->has('logged_admin')) {
+            return redirect()->to(base_url().'login');
+        } 
+
         // Get the logged-in admin's ID from the session
         $adminId = $this->session->get('logged_admin');
 
@@ -41,9 +46,21 @@ class Settings extends Controller
         return view('dashboard/settings/settings', ['admin' => $adminData]);
     }
 
+
+    public function logout(){
+        session()->remove('logged_admin');
+        session()->destroy();
+        return redirect()->to(base_url('login'));
+    }
+
     // Handle form submission
     public function updateProfile()
     {
+
+        if (!session()->has('logged_admin')) {
+            return redirect()->to(base_url().'login');
+        } 
+
         // Get the logged-in admin's ID from the session
         $adminId = $this->session->get('logged_admin');
 
@@ -80,6 +97,11 @@ class Settings extends Controller
     // Handle profile image upload
     public function uploadProfileImage()
     {
+
+        if (!session()->has('logged_admin')) {
+            return redirect()->to(base_url().'login');
+        } 
+
         // Validate admin is logged in
         $adminId = $this->session->get('logged_admin');
         if (!$adminId) {
