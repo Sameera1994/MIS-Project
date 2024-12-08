@@ -35,7 +35,7 @@
                     <li class="nav-item"><a href="#" class="nav-link px-2 footer-items">FAQs</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 footer-items">About</a></li>
                 </ul>
-                <p class="text-center footer-items">&copy; 2024 Company, Inc</p>
+                <p class="text-center footer-items">&copy; 2024 Sabaragamuwa University of Sri Lanka</p>
             </footer>
         </div>
     </div>
