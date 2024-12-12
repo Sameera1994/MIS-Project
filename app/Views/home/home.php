@@ -1,94 +1,133 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <script src="/docs/5.3/assets/js/color-modes.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .banner {
+            background: linear-gradient(90deg, #fae8bb, #3277ba, #fae8bb);
+            color: white;
+            text-align: center;
+            padding: 30px
+        }
+        .card {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <title>Home</title>
+        .card-header{
+            background-color: #3277ba; 
+        }
 
-    <link href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="icon" href="public\assests\Logo.png" sizes="32x32" type="image/png">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-  <style>
-    .card {
-      background-color: #1b456e !important;
-      color: #d2d4d6 !important;
-      text-align: center;
-      border: none !important;
-      border-radius: 8px;
-      /* padding-left: 10px; */
-      padding-top: 40px;
-      padding-bottom: 40px;
-      margin-left: 60px;
-      margin-right: 60px;
-      /* margin: 40px; */
-      transition: transform 0.8s ease-in-out;
-    }
-    .card:hover {
-      transform: scale(1.03);
-    }
-    .card i {
-      font-size: 40px;
-      /* margin-bottom: 10px; */
-    }
-  </style>
+        .btn-primary{
+            background-color: #3277ba !important;
+            border: #3277ba !important;
+
+        }
+
+        .footer{
+            background-color: #3277ba;
+
+        }
+    </style>
 </head>
-
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <img src="public/assests/Logo.png" alt="Logo" width="60" height="60" class="rounded-circle">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Grades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="<?= esc($user['profileImage']) ?>" 
+                             alt="Profile Picture" 
+                             class="rounded-circle" width="auto" height="60"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <div class="container py-3">
-        <main>
-        <div class="container py-4">
-    <div class="row g-4">
-      <div class="col-lg-4 col-md-6">
-        <div class="card">
-          <i class="fas fa-user-cog"></i>
-          <h5 class="mt-2">Profile</h5>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="card">
-          <i class="fas fa-award"></i>
-          <h5 class="mt-2">Results</h5>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="card">
-          <i class="fas fa-file-alt"></i>
-          <h5 class="mt-2">Forms</h5>
-        </div>
-      </div>
-      <div class="col-lg-4  col-md-6">
-        <div class="card">
-          <i class="fas fa-users"></i>
-          <h5 class="mt-2">Attendance</h5>
-        </div>
-      </div>
-      <div class="col-lg-4  col-md-6">
-        <div class="card">
-          <i class="fas fa-square"></i>
-          <h5 class="mt-2">Button_5</h5>
-        </div>
-      </div>
-      <div class="col-lg-4  col-md-6">
-        <div class="card">
-          <i class="fas fa-square"></i>
-          <h5 class="mt-2">Button_6</h5>
-        </div>
-      </div>
-    </div>
-  </div>
-        </main>
+    <!-- Banner -->
+    <div class="banner">
+        <h2>Hi <?= esc($user['name']) ?>, </h2>
+        <h1>Welcome to the Student Management Portal</h1>
+        <p>Your gateway to academic success and updates..</p>
     </div>
 
-    <script src="https://getbootstrap.com/docs/5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Main Content -->
+    <div class="container my-5 py-4">
+        <div class="row">
+            <!-- Quick Access Cards -->
+            <div class="col-lg-8">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Upcoming Assignments</h5>
+                                <p class="card-text flex-grow-1">View and manage your upcoming tasks.</p>
+                                <a href="#" class="btn btn-primary mt-auto">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Notifications</h5>
+                                <p class="card-text flex-grow-1">Stay updated with the latest alerts.</p>
+                                <a href="#" class="btn btn-primary mt-auto">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card text-center h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Lecture Schedule</h5>
+                                <p class="card-text flex-grow-1">Access your lecture timetable.</p>
+                                <a href="#" class="btn btn-primary mt-auto">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Latest News -->
+            <div class="col-lg-4 mt-4 mt-lg-0">
+                <div class="card h-100">
+                    <div class="card-header text-white">
+                        Latest News
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Exam schedules are now available.</a></li>
+                            <li><a href="#">New courses added for the next semester.</a></li>
+                            <li><a href="#">Library will be closed this weekend.</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center py-4 ">
+        <div class="container text-light">
+            <p class="mb-0">&copy; 2024 Student Management Portal. All rights reserved.</p>
+            <a class="text-light" href="#">Privacy Policy</a> | <a href="#" class="text-light">Contact Us</a> | <a href="#" class="text-light">Help</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
