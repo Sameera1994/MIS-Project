@@ -99,8 +99,6 @@
 
             <a href="<?= base_url('login') ?>" class="d-block mb-2">Sign In</a>
 
-            <a href="<?= base_url('dashboard/index_user') ?>" class="btn btn-secondary w-100 mb-2">Admin</a>
-            <a href="<?= base_url('home') ?>" class="btn btn-secondary w-100">Student</a>
             <?= form_close(); ?>
         </main>
     </div>
