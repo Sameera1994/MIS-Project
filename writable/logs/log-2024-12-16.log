@@ -1,0 +1,738 @@
+CRITICAL - 2024-12-16 00:32:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index_old.php"
+[Method: GET, Route: courses]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_old.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index_old', [], true)
+ 3 APPPATH\Views\dashboard\courses\index_course.php(30): view('index_old')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_course', [], true)
+ 7 APPPATH\Controllers\Courses.php(13): view('dashboard/courses/index_course')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-16 00:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 00:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 00:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 00:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 00:35:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index_old.php"
+[Method: GET, Route: courses]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_old.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index_old', [], true)
+ 3 APPPATH\Views\dashboard\courses\index_course.php(30): view('index_old')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_course', [], true)
+ 7 APPPATH\Controllers\Courses.php(13): view('dashboard/courses/index_course')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 00:35:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index_old.php"
+[Method: GET, Route: courses]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_old.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index_old', [], true)
+ 3 APPPATH\Views\dashboard\courses\index_course.php(30): view('index_old')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_course', [], true)
+ 7 APPPATH\Controllers\Courses.php(13): view('dashboard/courses/index_course')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 00:39:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index_old.php"
+[Method: GET, Route: courses]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_old.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index_old', [], true)
+ 3 APPPATH\Views\dashboard\courses\index_course.php(30): view('index_old')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_course', [], true)
+ 7 APPPATH\Controllers\Courses.php(13): view('dashboard/courses/index_course')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-16 00:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 00:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 00:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 00:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 00:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 00:39:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "index_old.php"
+[Method: GET, Route: courses]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_old.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('index_old', [], true)
+ 3 APPPATH\Views\dashboard\courses\index_course.php(30): view('index_old')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_course', [], true)
+ 7 APPPATH\Controllers\Courses.php(13): view('dashboard/courses/index_course')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 00:45:41 --> ErrorException: include(old.php): Failed to open stream: No such file or directory
+[Method: GET, Route: courses]
+in APPPATH\Views\dashboard\courses\index_course.php on line 36.
+ 1 APPPATH\Views\dashboard\courses\index_course.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(old.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php', 36)
+ 2 APPPATH\Views\dashboard\courses\index_course.php(36): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_course', [], true)
+ 6 APPPATH\Controllers\Courses.php(13): view('dashboard/courses/index_course')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-16 00:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 00:45:42 --> ErrorException: include(old.php): Failed to open stream: No such file or directory
+[Method: GET, Route: courses]
+in APPPATH\Views\dashboard\courses\index_course.php on line 36.
+ 1 APPPATH\Views\dashboard\courses\index_course.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(old.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php', 36)
+ 2 APPPATH\Views\dashboard\courses\index_course.php(36): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_course', [], true)
+ 6 APPPATH\Controllers\Courses.php(13): view('dashboard/courses/index_course')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 00:46:09 --> ErrorException: include(old.php): Failed to open stream: No such file or directory
+[Method: GET, Route: courses]
+in APPPATH\Views\dashboard\courses\index_course.php on line 36.
+ 1 APPPATH\Views\dashboard\courses\index_course.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(old.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php', 36)
+ 2 APPPATH\Views\dashboard\courses\index_course.php(36): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_course', [], true)
+ 6 APPPATH\Controllers\Courses.php(13): view('dashboard/courses/index_course')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-16 00:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 00:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 00:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 00:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 00:46:18 --> ErrorException: include(old.php): Failed to open stream: No such file or directory
+[Method: GET, Route: courses]
+in APPPATH\Views\dashboard\courses\index_course.php on line 36.
+ 1 APPPATH\Views\dashboard\courses\index_course.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(old.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php', 36)
+ 2 APPPATH\Views\dashboard\courses\index_course.php(36): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_course', [], true)
+ 6 APPPATH\Controllers\Courses.php(13): view('dashboard/courses/index_course')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 01:05:40 --> ArgumentCountError: Too few arguments to function App\Controllers\Admins::edit(), 0 passed in C:\xampp\htdocs\student_management_portal\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: admins/edit]
+in APPPATH\Controllers\Admins.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admins->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admins))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 01:05:40 --> ArgumentCountError: Too few arguments to function App\Controllers\Admins::edit(), 0 passed in C:\xampp\htdocs\student_management_portal\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: admins/edit]
+in APPPATH\Controllers\Admins.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admins->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admins))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-16 01:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 01:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 01:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-16 04:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-16 04:23:09 --> Error: Class "App\Controllers\SubjectModel" not found
+[Method: GET, Route: courses/department_subject/3]
+in APPPATH\Controllers\Courses.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:23:20 --> Error: Class "App\Controllers\SubjectModel" not found
+[Method: GET, Route: courses/department_subject/1]
+in APPPATH\Controllers\Courses.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('1')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:23:22 --> Error: Class "App\Controllers\SubjectModel" not found
+[Method: GET, Route: courses/department_subject/2]
+in APPPATH\Controllers\Courses.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('2')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:25:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 7.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:25:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 7.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:25:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 7.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:25:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 7.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:26:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 10.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:26:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 10.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:26:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 10.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:26:15 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 10.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:27:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 10.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:27:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 10.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:27:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 10.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:27:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 10.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:28:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 11.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:28:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 11.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:28:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 11.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:28:11 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 11.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:28:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:28:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:28:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:28:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:28:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:28:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:28:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:28:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(76): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:30:05 --> ErrorException: Undefined variable $department
+[Method: GET, Route: courses/syllabus_department]
+in APPPATH\Views\dashboard\courses\index_course.php on line 7.
+ 1 APPPATH\Views\dashboard\courses\index_course.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_course', [], true)
+ 5 APPPATH\Controllers\Courses.php(46): view('dashboard/courses/index_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->syllabus_department()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:30:06 --> ErrorException: Undefined variable $department
+[Method: GET, Route: courses/syllabus_department]
+in APPPATH\Views\dashboard\courses\index_course.php on line 7.
+ 1 APPPATH\Views\dashboard\courses\index_course.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $department', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_course.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_course', [], true)
+ 5 APPPATH\Controllers\Courses.php(46): view('dashboard/courses/index_course', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->syllabus_department()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:37:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:37:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:37:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:37:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:42:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:42:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:42:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:42:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:42:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:42:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:42:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-16 04:42:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
