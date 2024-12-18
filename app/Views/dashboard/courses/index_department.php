@@ -13,8 +13,8 @@
                 <form action="" method="get">
                     <div class="form-control border-0">
                         <input type="text" name="query" class="rounded border border-secondary-subtle p-1" placeholder="Search Departments">
-                    <button type="submit" class="btn btn-primary">Search</button>
-                </div>
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </div>
                 </form>
             </div>
             <div>

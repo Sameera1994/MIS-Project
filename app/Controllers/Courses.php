@@ -75,5 +75,28 @@ class Courses extends Controller
         ]);
     }
 
+    public function create_department(){
+
+    }
+
+    public function store_department(){
+
+    }
+
+    public function edit_department($department_id){
+
+    }
+
+    public function update_department($department_id){
+
+    }
+
+    public function delete_department($department_id){
+
+    }
+
+    public function search_department(){
+
+    }
    
 }
