@@ -1,0 +1,66 @@
+CRITICAL - 2024-10-21 10:44:38 --> ParseError: Unmatched '}'
+[Method: GET, Route: dashboard/user_management/user_form]
+in APPPATH\Controllers\UserForm.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Controllers\\UserForm.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserForm')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserForm')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\UserForm', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 10:57:26 --> ErrorException: Undefined variable $user
+[Method: GET, Route: dashboard/user_management]
+in APPPATH\Views\dashboard\user_management.php on line 40.
+ 1 APPPATH\Views\dashboard\user_management.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\dashboard\\user_management.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\dashboard\\user_management.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/user_management', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(16): view('dashboard/user_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 10:57:28 --> ErrorException: Undefined variable $user
+[Method: GET, Route: dashboard/user_management]
+in APPPATH\Views\dashboard\user_management.php on line 40.
+ 1 APPPATH\Views\dashboard\user_management.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\dashboard\\user_management.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\dashboard\\user_management.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/user_management', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(16): view('dashboard/user_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 10:58:22 --> ErrorException: Undefined variable $user
+[Method: GET, Route: dashboard/user_management]
+in APPPATH\Views\dashboard\user_management.php on line 40.
+ 1 APPPATH\Views\dashboard\user_management.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\dashboard\\user_management.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\dashboard\\user_management.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/user_management', [], true)
+ 5 APPPATH\Controllers\UserManagement.php(16): view('dashboard/user_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserManagement->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-21 11:02:32 --> ParseError: Unmatched '}'
+[Method: GET, Route: dashboard/user_management/user_form]
+in APPPATH\Controllers\UserForm.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Controllers\\UserForm.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserForm')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserForm')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\UserForm', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

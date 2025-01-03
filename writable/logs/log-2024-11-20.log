@@ -1,0 +1,280 @@
+INFO - 2024-11-20 05:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-20 05:39:14 --> BadMethodCallException: Call to undefined method App\Models\AdminModel::searchAdmin
+[Method: GET, Route: dashboard/admins/search_admin]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AdminManagement.php(103): CodeIgniter\Model->__call('searchAdmin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminManagement->search()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:42:09 --> BadMethodCallException: Call to undefined method App\Models\AdminModel::searchAdmin
+[Method: GET, Route: dashboard/admins/search_admin]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AdminManagement.php(103): CodeIgniter\Model->__call('searchAdmin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminManagement->search()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-20 05:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-20 05:47:47 --> ErrorException: Undefined variable $u
+[Method: GET, Route: dashboard/admins/index_admin]
+in APPPATH\Views\dashboard\admins\index_admin.php on line 43.
+ 1 APPPATH\Views\dashboard\admins\index_admin.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $u', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\admins\\index_admin.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\admins\\index_admin.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/admins/index_admin', [], true)
+ 5 APPPATH\Controllers\AdminManagement.php(15): view('dashboard/admins/index_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminManagement->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-20 05:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-20 05:57:26 --> BadMethodCallException: Call to undefined method App\Models\AdminModel::searchAdmin
+[Method: GET, Route: dashboard/admins/search_admin]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AdminManagement.php(103): CodeIgniter\Model->__call('searchAdmin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminManagement->search()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 08:57:04 --> BadMethodCallException: Call to undefined method App\Models\AdminModel::searchAdmin
+[Method: GET, Route: dashboard/admins/search_admin]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\AdminManagement.php(103): CodeIgniter\Model->__call('searchAdmin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminManagement->search()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManagement))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-20 09:05:15 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\xampp\htdocs\student_management_portal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\student_management_portal\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\student_management_portal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\student_management_portal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\student_management_portal\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\student_management_portal\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\student_management_portal\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\student_management_portal\app\Models\AdminModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\student_management_portal\app\Controllers\AdminManagement.php(103): App\Models\AdminModel->searchAdmin('Perera')
+#8 C:\xampp\htdocs\student_management_portal\system\CodeIgniter.php(933): App\Controllers\AdminManagement->search()
+#9 C:\xampp\htdocs\student_management_portal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManagement))
+#10 C:\xampp\htdocs\student_management_portal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\student_management_portal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\student_management_portal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\student_management_portal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-20 09:05:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+[Method: GET, Route: dashboard/admins/search_admin]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `name` LIKE :name: ESCAPE \'!\'
+OR  `email` LIKE :email: ESCAPE \'!\'
+OR  `username` LIKE :username: ESCAPE \'!\'
+OR  `telephone` LIKE :telephone: ESCAPE \'!\'
+OR  `access_level` LIKE :access_level: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdminModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdminManagement.php(103): App\Models\AdminModel->searchAdmin('Perera')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminManagement->search()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 09:05:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `admin`
+WHERE `name` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `email` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `username` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `telephone` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `access_level` LIKE \'%Perera%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `admin`
+WHERE `name` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `email` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `username` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `telephone` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `access_level` LIKE \'%Perera%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `name` LIKE :name: ESCAPE \'!\'
+OR  `email` LIKE :email: ESCAPE \'!\'
+OR  `username` LIKE :username: ESCAPE \'!\'
+OR  `telephone` LIKE :telephone: ESCAPE \'!\'
+OR  `access_level` LIKE :access_level: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AdminModel.php(21): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\AdminManagement.php(103): App\Models\AdminModel->searchAdmin('Perera')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminManagement->search()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 09:05:15 --> [Caused by] mysqli_sql_exception: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `admin`
+WHERE `name` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `email` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `username` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `telephone` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `access_level` LIKE \'%Perera%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `admin`
+WHERE `name` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `email` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `username` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `telephone` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `access_level` LIKE \'%Perera%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `admin`
+WHERE `name` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `email` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `username` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `telephone` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `access_level` LIKE \'%Perera%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `name` LIKE :name: ESCAPE \'!\'
+OR  `email` LIKE :email: ESCAPE \'!\'
+OR  `username` LIKE :username: ESCAPE \'!\'
+OR  `telephone` LIKE :telephone: ESCAPE \'!\'
+OR  `access_level` LIKE :access_level: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AdminModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminManagement.php(103): App\Models\AdminModel->searchAdmin('Perera')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminManagement->search()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManagement))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-20 09:05:22 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\xampp\htdocs\student_management_portal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\student_management_portal\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\student_management_portal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\student_management_portal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\student_management_portal\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\student_management_portal\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\student_management_portal\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\student_management_portal\app\Models\AdminModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\student_management_portal\app\Controllers\AdminManagement.php(103): App\Models\AdminModel->searchAdmin('Perera')
+#8 C:\xampp\htdocs\student_management_portal\system\CodeIgniter.php(933): App\Controllers\AdminManagement->search()
+#9 C:\xampp\htdocs\student_management_portal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManagement))
+#10 C:\xampp\htdocs\student_management_portal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\student_management_portal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\student_management_portal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\student_management_portal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-11-20 09:05:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+[Method: GET, Route: dashboard/admins/search_admin]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `name` LIKE :name: ESCAPE \'!\'
+OR  `email` LIKE :email: ESCAPE \'!\'
+OR  `username` LIKE :username: ESCAPE \'!\'
+OR  `telephone` LIKE :telephone: ESCAPE \'!\'
+OR  `access_level` LIKE :access_level: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\AdminModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\AdminManagement.php(103): App\Models\AdminModel->searchAdmin('Perera')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminManagement->search()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManagement))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 09:05:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `admin`
+WHERE `name` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `email` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `username` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `telephone` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `access_level` LIKE \'%Perera%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `admin`
+WHERE `name` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `email` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `username` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `telephone` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `access_level` LIKE \'%Perera%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `name` LIKE :name: ESCAPE \'!\'
+OR  `email` LIKE :email: ESCAPE \'!\'
+OR  `username` LIKE :username: ESCAPE \'!\'
+OR  `telephone` LIKE :telephone: ESCAPE \'!\'
+OR  `access_level` LIKE :access_level: ESCAPE \'!\'', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\AdminModel.php(21): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\AdminManagement.php(103): App\Models\AdminModel->searchAdmin('Perera')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminManagement->search()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManagement))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 09:05:22 --> [Caused by] mysqli_sql_exception: Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `admin`
+WHERE `name` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `email` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `username` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `telephone` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `access_level` LIKE \'%Perera%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `admin`
+WHERE `name` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `email` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `username` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `telephone` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `access_level` LIKE \'%Perera%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `admin`
+WHERE `name` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `email` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `username` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `telephone` LIKE \'%Perera%\' ESCAPE \'!\'
+OR  `access_level` LIKE \'%Perera%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `name` LIKE :name: ESCAPE \'!\'
+OR  `email` LIKE :email: ESCAPE \'!\'
+OR  `username` LIKE :username: ESCAPE \'!\'
+OR  `telephone` LIKE :telephone: ESCAPE \'!\'
+OR  `access_level` LIKE :access_level: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\AdminModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\AdminManagement.php(103): App\Models\AdminModel->searchAdmin('Perera')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminManagement->search()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminManagement))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-20 09:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-20 10:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-20 10:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

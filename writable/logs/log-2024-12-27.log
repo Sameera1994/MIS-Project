@@ -1,0 +1,107 @@
+INFO - 2024-12-27 18:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 18:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 18:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 18:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 18:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-27 19:32:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "result/index.php"
+[Method: GET, Route: result]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('result/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('result/index', [], true)
+ 3 APPPATH\Controllers\Result.php(46): view('result/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Result->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 19:36:25 --> ErrorException: Attempt to read property "department" on array
+[Method: POST, Route: result]
+in APPPATH\Views\dashboard\reports\result.php on line 13.
+ 1 APPPATH\Views\dashboard\reports\result.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "department" on array', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\result.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\result.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/result', [], true)
+ 5 APPPATH\Controllers\Result.php(38): view('dashboard/reports/result', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Result->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 19:38:22 --> ErrorException: Attempt to read property "department" on array
+[Method: POST, Route: result]
+in APPPATH\Views\dashboard\reports\result.php on line 13.
+ 1 APPPATH\Views\dashboard\reports\result.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "department" on array', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\result.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\result.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/result', [], true)
+ 5 APPPATH\Controllers\Result.php(38): view('dashboard/reports/result', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Result->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 19:38:25 --> ErrorException: Attempt to read property "department" on array
+[Method: GET, Route: result]
+in APPPATH\Views\dashboard\reports\result.php on line 13.
+ 1 APPPATH\Views\dashboard\reports\result.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "department" on array', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\result.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\result.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/result', [], true)
+ 5 APPPATH\Controllers\Result.php(38): view('dashboard/reports/result', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Result->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 19:38:27 --> ErrorException: Attempt to read property "department" on array
+[Method: GET, Route: result]
+in APPPATH\Views\dashboard\reports\result.php on line 13.
+ 1 APPPATH\Views\dashboard\reports\result.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "department" on array', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\result.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\result.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/result', [], true)
+ 5 APPPATH\Controllers\Result.php(38): view('dashboard/reports/result', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Result->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 19:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-27 19:38:32 --> ErrorException: Attempt to read property "department" on array
+[Method: GET, Route: result]
+in APPPATH\Views\dashboard\reports\result.php on line 13.
+ 1 APPPATH\Views\dashboard\reports\result.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "department" on array', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\result.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\result.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/result', [], true)
+ 5 APPPATH\Controllers\Result.php(38): view('dashboard/reports/result', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Result->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-27 19:39:35 --> ErrorException: Attempt to read property "batch" on array
+[Method: GET, Route: result]
+in APPPATH\Views\dashboard\reports\result.php on line 20.
+ 1 APPPATH\Views\dashboard\reports\result.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "batch" on array', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\result.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\result.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/result', [], true)
+ 5 APPPATH\Controllers\Result.php(38): view('dashboard/reports/result', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Result->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-27 20:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 20:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 20:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 20:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-27 20:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

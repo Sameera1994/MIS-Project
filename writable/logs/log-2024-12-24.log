@@ -1,0 +1,966 @@
+INFO - 2024-12-24 11:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 11:07:56 --> ErrorException: Array to string conversion
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 40.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 40)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 11:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 11:13:59 --> ErrorException: Array to string conversion
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 34.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 34)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 11:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 11:14:00 --> ErrorException: Array to string conversion
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 34.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 34)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 11:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 11:14:35 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 40.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 40)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 11:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 11:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 11:34:59 --> ErrorException: Undefined variable $title
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 6.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 6)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 11:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 11:35:51 --> Error: Call to undefined function form_open()
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 27.
+ 1 APPPATH\Views\dashboard\reports\reports.php(40): include()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 5 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 11:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 11:36:42 --> Error: Call to undefined function form_dropdown()
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 31.
+ 1 APPPATH\Views\dashboard\reports\reports.php(40): include()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 5 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:10:51 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 18.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 18)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:10:52 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 18.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 18)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:14:43 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 18.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 18)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:14:44 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 18.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 18)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:16:12 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 19.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 19)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:18:14 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 19.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 19)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:22:25 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 17.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 17)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:24:22 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 17.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 17)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:28:53 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 17.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 17)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:28:56 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 17.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 17)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:33:20 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 2.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 2)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:34:58 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 2.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 2)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 12:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 12:38:01 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 2.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 2)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 12:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:06:20 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 17.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 17)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:06:22 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 17.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 17)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:09:58 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: reports]
+in APPPATH\Config\Database.php on line 204.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\student_management_portal\\app\\Config\\Database.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+ 3 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(258): CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+ 4 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(75): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+ 5 SYSTEMPATH\Debug\Toolbar.php(68): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+ 6 SYSTEMPATH\Config\Services.php(796): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+ 7 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+ 8 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('toolbar', [...])
+ 9 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', null)
+10 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::toolbar()
+11 APPPATH\Config\Events.php(47): CodeIgniter\Config\BaseService::__callStatic('toolbar', [])
+12 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:10:17 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 17.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 17)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:10:37 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:11:56 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:13:05 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:14:15 --> ErrorException: Undefined variable $semesters
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 32.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semesters', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 32)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:22:19 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:25:54 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:25:56 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:27:48 --> ErrorException: Undefined variable $semesters
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 27.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semesters', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 27)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 13:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:57:08 --> ErrorException: Undefined array key "department"
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 17.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "department"', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 17)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:58:04 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 13:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 13:58:24 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:36:55 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:36:56 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:38:12 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:38:14 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:38:25 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:38:26 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:39:00 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 17.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 17)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:40:26 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:40:39 --> ErrorException: Undefined variable $batchs
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batchs', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:42:36 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:42:37 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:42:38 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:42:38 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:43:47 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:52:21 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 14:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 14:52:22 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 16:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 16:39:47 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 16:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 16:39:52 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 16:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 16:43:57 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 16:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 16:43:59 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 16:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 16:44:02 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 16:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-24 16:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 16:44:06 --> ErrorException: Undefined variable $batches
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 26.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $batches', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 26)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 16:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 16:44:32 --> ErrorException: Undefined variable $semesters
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 32.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semesters', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 32)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 16:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-24 16:44:54 --> ErrorException: Undefined variable $subjects
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 38.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subjects', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 38)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-24 16:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

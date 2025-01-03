@@ -92,3 +92,10 @@ define('EVENT_PRIORITY_NORMAL', 100);
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_HIGH instead.
  */
 define('EVENT_PRIORITY_HIGH', 10);
+
+
+
+defined('Dark') || define('Dark', '#275296');
+defined('Light') || define('Light', '#C7E8F3');
+defined('Purple') || define('Purple', '#BF9ACA');
+defined('Pink') || define('Pink', '#EDA2C0');

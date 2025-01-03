@@ -1,0 +1,74 @@
+INFO - 2024-12-22 04:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-22 04:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-22 04:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-22 04:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-22 04:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-22 04:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-22 04:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-22 04:05:53 --> ErrorException: Undefined variable $filters
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 54.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filters', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 54)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-22 04:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-22 04:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-22 04:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-22 04:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-22 04:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-22 04:21:32 --> ErrorException: Attempt to read property "department" on array
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 30.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "department" on array', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 30)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-22 04:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-22 04:23:26 --> ErrorException: Array to string conversion
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 30.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 30)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-22 04:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-22 04:24:41 --> ErrorException: Array to string conversion
+[Method: GET, Route: reports]
+in APPPATH\Views\dashboard\reports\attendance.php on line 34.
+ 1 APPPATH\Views\dashboard\reports\attendance.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php', 34)
+ 2 APPPATH\Views\dashboard\reports\reports.php(40): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\reports\\reports.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/reports/reports', [], true)
+ 6 APPPATH\Controllers\Reports.php(28): view('dashboard/reports/reports', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reports->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,146 @@
+CRITICAL - 2024-12-17 00:37:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 00:37:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 00:37:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 00:37:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: courses/department_subject/public/assests/Logo.png]
+in APPPATH\Views\dashboard\courses\index_subject.php on line 9.
+ 1 APPPATH\Views\dashboard\courses\index_subject.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\student_management_portal\\app\\Views\\dashboard\\courses\\index_subject.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/courses/index_subject', [], true)
+ 5 APPPATH\Controllers\Courses.php(84): view('dashboard/courses/index_subject', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('public', 'assests', 'Logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-17 01:19:54 --> mysqli_sql_exception: Unknown column 'semester.department_id' in 'where clause' in C:\xampp\htdocs\student_management_portal\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\student_management_portal\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `subject...', 0)
+#1 C:\xampp\htdocs\student_management_portal\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subject...')
+#2 C:\xampp\htdocs\student_management_portal\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subject...')
+#3 C:\xampp\htdocs\student_management_portal\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `subject...', Array, false)
+#4 C:\xampp\htdocs\student_management_portal\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\student_management_portal\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\student_management_portal\app\Controllers\Courses.php(75): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\student_management_portal\system\CodeIgniter.php(933): App\Controllers\Courses->department_subject('3')
+#8 C:\xampp\htdocs\student_management_portal\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+#9 C:\xampp\htdocs\student_management_portal\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\student_management_portal\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\student_management_portal\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\student_management_portal\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-12-17 01:19:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'semester.department_id' in 'where clause'
+[Method: GET, Route: courses/department_subject/3]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `subject`.`subject_id`, `subject`.`subject_name`, `semester`.`semester_number`
+FROM `subject`
+JOIN `semester` ON `semester`.`semester_id` = `subject`.`semester_id`
+WHERE `semester`.`department_id` = :semester.department_id:
+ORDER BY `semester`.`semester_number`', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Courses.php(75): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('3')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 01:19:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'semester.department_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subject`.`subject_id`, `subject`.`subject_name`, `semester`.`semester_number`
+FROM `subject`
+JOIN `semester` ON `semester`.`semester_id` = `subject`.`semester_id`
+WHERE `semester`.`department_id` = \'3\'
+ORDER BY `semester`.`semester_number`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subject`.`subject_id`, `subject`.`subject_name`, `semester`.`semester_number`
+FROM `subject`
+JOIN `semester` ON `semester`.`semester_id` = `subject`.`semester_id`
+WHERE `semester`.`department_id` = \'3\'
+ORDER BY `semester`.`semester_number`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `subject`.`subject_id`, `subject`.`subject_name`, `semester`.`semester_number`
+FROM `subject`
+JOIN `semester` ON `semester`.`semester_id` = `subject`.`semester_id`
+WHERE `semester`.`department_id` = :semester.department_id:
+ORDER BY `semester`.`semester_number`', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Courses.php(75): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('3')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-17 01:19:54 --> [Caused by] mysqli_sql_exception: Unknown column 'semester.department_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `subject`.`subject_id`, `subject`.`subject_name`, `semester`.`semester_number`
+FROM `subject`
+JOIN `semester` ON `semester`.`semester_id` = `subject`.`semester_id`
+WHERE `semester`.`department_id` = \'3\'
+ORDER BY `semester`.`semester_number`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subject`.`subject_id`, `subject`.`subject_name`, `semester`.`semester_number`
+FROM `subject`
+JOIN `semester` ON `semester`.`semester_id` = `subject`.`semester_id`
+WHERE `semester`.`department_id` = \'3\'
+ORDER BY `semester`.`semester_number`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subject`.`subject_id`, `subject`.`subject_name`, `semester`.`semester_number`
+FROM `subject`
+JOIN `semester` ON `semester`.`semester_id` = `subject`.`semester_id`
+WHERE `semester`.`department_id` = \'3\'
+ORDER BY `semester`.`semester_number`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `subject`.`subject_id`, `subject`.`subject_name`, `semester`.`semester_number`
+FROM `subject`
+JOIN `semester` ON `semester`.`semester_id` = `subject`.`semester_id`
+WHERE `semester`.`department_id` = :semester.department_id:
+ORDER BY `semester`.`semester_number`', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Courses.php(75): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Courses->department_subject('3')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Courses))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
